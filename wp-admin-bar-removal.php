@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Bar Removal (beta1)
+Plugin Name: WP Bar Removal (beta1-16732)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Remove <code>Admin Bar</code> Backend and Frontend | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
 Version: 2010.1211.0103
