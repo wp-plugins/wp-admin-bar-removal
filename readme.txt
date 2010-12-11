@@ -108,7 +108,7 @@ Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Compatibility Upgrade.
 Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
-== WP Bar Removal (admin) Completely Disable Backend and Frontend ==
+== WP Admin Bar Removal (completely disable) ==
 Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
