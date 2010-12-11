@@ -1,13 +1,13 @@
-=== WP Bar Removal (beta1-16732) Completely Disable Admin Bar Backend and Frontend ===
+=== WP Bar Removal (admin) Completely Disable Backend and Frontend ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, backend, frontend, beta1, beta1-16732,
 Stable tag: 2010.1211.0103
 Requires at least: 3.1
 Tested up to: 3.1-beta1-16732
-<code>Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend</code>. Full compatible with WordPress 3.1-beta1-16732 and Network Multisite work with Shared and VPS Hosting.
+Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend. Full 3.1-beta1-16732 and Network Multisite compatible work with Shared and VPS Hosting.
 == Description ==
-<code>Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend</code>.
+<code>Completely Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend.
 
 Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
 
@@ -48,7 +48,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
 = WP Bar Removal =
-<code>Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend</code>. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
+<code>Completely Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -107,9 +107,9 @@ Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Compatibility Upgrade.
 = 2010.1201.1918 =
 Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
-First Public Stable Release (full WP 3.1-alpha compatible) Fix Missed Scheduled Future Posts Cron Job.
-== WP Missed Schedule Fix Failed Scheduled Future Posts ==
-<code>Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend</code>. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
+First Public Release (full WP 3.1-alpha compatible)
+== WP Bar Removal (admin) Completely Disable Backend and Frontend ==
+<code>Completely Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16732 and Network Multisite.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
