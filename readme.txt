@@ -75,8 +75,8 @@ Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-sche
 `Work with Shared and VPS Hosting`
 == Changelog ==
 `History Release's:`
-`Development Release: Version 2010 Build 1212-BUGFIX Revision 0000`
-`Stable Release: Version 2010 Build 1211 Revision 0103`
+`Development Release: Version 2010 Build 1214-BUGFIX Revision 0000`
+`Stable Release: Version 2010 Build 1213 Revision 0340`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
 = 2010.1213.0340 =
 * Silent Update [MAINTENANCE] WP 3.1-beta1-16884
