@@ -2,7 +2,7 @@
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, backend, frontend, beta1, beta1-16884,
-Stable tag: 2010.1211.0103
+Stable tag: 2010.1213.0340
 Requires at least: 3.1
 Tested up to: 3.1-beta1-16884
 Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend. Full 3.1-beta1-16884 and Network Multisite compatible work with Shared and VPS Hosting.
