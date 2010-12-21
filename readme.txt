@@ -5,9 +5,9 @@ Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, fronten
 Stable tag: 2010.1220.1638
 Requires at least: 3.1
 Tested up to: 3.1-beta2-17056
-Admin Bar Removal Completely Disable New WordPress 3.1 Admin Bar Frontend and Backend that now appears on the Public Side of New WordPress 3.1 based blogs.
+Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Admin Bar Frontend and Backend Code that now appears on the Public Side of New WP 3.1 based blogs.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side of New WordPress 3.1 based blogs. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
 Download Admin Bar Removal
 = For users of WP =
@@ -29,7 +29,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
 = Admin Bar Removal =
-Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side of New WordPress 3.1 based blogs. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -50,7 +50,7 @@ Work with Shared and VPS Hosting`
 == Screenshots ==
 [Screenshot](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/screenshots/screenshot.jpg) of the Admin Bar Removal on WordPress `3.1-beta2-17056`.
 
-Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side of New WordPress 3.1 based blogs. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -70,7 +70,7 @@ Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Changelog ==
 `History Release's:
-Development Release: Version 2010 Build 1221-BUGFIX Revision 0000
+Development Release: Version 2010 Build 1221-BUGFIX Revision 2313
 Stable Release: Version 2010 Build 1220 Revision 1638`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
 = 2010.1220.1638 =
@@ -136,7 +136,7 @@ Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
 == WP Admin Bar Removal (completely disable) ==
-Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side of New WordPress 3.1 based blogs. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
