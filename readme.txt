@@ -9,11 +9,16 @@ Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Frontend and B
 == Description ==
 Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences [(Ticket #15829)][http://core.trac.wordpress.org/ticket/15829] disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
-Download Admin Bar Removal
-= For users of WP =
-1. Upload it into your plugins directory.
-2. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
-3. Active Admin Bar Removal
+= How to install Admin Bar Removal (manual) =
+1. Download Admin Bar Removal.
+2. Upload it into your plugins directory.
+3. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
+4. Active Admin Bar Removal.
+= How to install Admin Bar Removal (auto) =
+1. Search Admin Bar Removal from Plugin Add Feature.
+2. Install it live directly from wordpress.org repository.
+3. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
+4. Active Admin Bar Removal.
 = How to uninstall Admin Bar Removal =
 1. Disable Admin Bar Removal from Menu Plugins of Control Panel.
 2. Delete Admin Bar Removal from Menu Plugins of Control Panel.
