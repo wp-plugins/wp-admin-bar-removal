@@ -5,7 +5,7 @@ Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, fronten
 Stable tag: 2010.1220.1638
 Requires at least: 3.1
 Tested up to: 3.1-beta2-17056
-Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Admin Bar Frontend and Backend Code that now appears on the Public Side of New WP 3.1 based blogs.
+Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Frontend and Backend Code that now appears on the Public Side of WP 3.1 based blogs.
 == Description ==
 Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) 
 == Installation ==
