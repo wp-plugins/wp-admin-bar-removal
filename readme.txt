@@ -1,13 +1,16 @@
-=== WP Admin Bar Removal (completely disable) ===
+=== Admin Bar Removal (completely disable) ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, backend, frontend, beta1, beta2, beta2-17056,
+Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, backend, beta1, beta2, beta2-17056,
 Stable tag: 2010.1220.1638
 Requires at least: 3.1
 Tested up to: 3.1-beta2-17056
-Completely Disable New WordPress 3.1 Admin Bar Frontend and Backend. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely Disable New WordPress 3.1 Admin Bar Frontend and Backend that now appears on the public side of WordPress blogs. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
 == Description ==
-Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend.
+Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the public side of WordPress blogs. Full 3.1-beta2-17056 and Network Multisite support compatible work with Shared and VPS Hosting.
+
+Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
 `Nothing is written into space disk or VPS
 Nothing is written into database!
@@ -22,20 +25,15 @@ No need to delete anything from the database when removed!
 No need to delete anything from the wp_option when removed!
 Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
-
-Work with Shared and VPS Hosting. Support WordPress 3.1-beta2-17056 and Network Multisite.
-
-Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
-Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
-Download WP Admin Bar Removal
+Download Admin Bar Removal
 = For users of WP =
 1. Upload it into your plugins directory.
 2. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
-3. Active WP Bar Removal
-= How to uninstall WP Bar Removal =
-1. Disable WP Bar Removal from Menu Plugins of Control Panel.
-2. Delete WP Bar Removal from Menu Plugins of Control Panel.
+3. Active Admin Bar Removal
+= How to uninstall Admin Bar Removal =
+1. Disable Admin Bar Removal from Menu Plugins of Control Panel.
+2. Delete Admin Bar Removal from Menu Plugins of Control Panel.
 = Troubleshooting =
 If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-admin-bar-removal/
 == Frequently Asked Questions ==
@@ -47,8 +45,8 @@ If all else fails and your site is broken remove directly via ftp on your host s
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
-= WP Bar Removal =
-Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta2-17056 and Network Multisite.
+= Admin Bar Removal =
+Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the public side of WordPress blogs. Full 3.1-beta2-17056 and Network Multisite support compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -67,9 +65,9 @@ No need to delete anything from the wp_option when removed!
 Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Screenshots ==
-[Screenshot](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/screenshots/screenshot.jpg) of the WP Bar Removal on WordPress `3.1-beta2-17056`.
+[Screenshot](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/screenshots/screenshot.jpg) of the Admin Bar Removal on WordPress `3.1-beta2-17056`.
 
-Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta2-17056 and Network Multisite.
+Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the public side of WordPress blogs. Full 3.1-beta2-17056 and Network Multisite support compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -155,7 +153,7 @@ Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
 == WP Admin Bar Removal (completely disable) ==
-Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta2-16997 and Network Multisite.
+Admin Bar Removal Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend that now appears on the public side of WordPress blogs. Full 3.1-beta2-17056 and Network Multisite support compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
