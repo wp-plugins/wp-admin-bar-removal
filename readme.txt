@@ -7,7 +7,7 @@ Requires at least: 3.1
 Tested up to: 3.1-beta2-17056
 Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Frontend and Backend Code that now appears on the Public Side of WP 3.1 based blogs.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
@@ -121,14 +121,14 @@ First Public Release (full WP 3.1-alpha compatible)
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
-== Todo List ==
-Nothing for now ...
 == Donations ==
 [Donate](http://donate.sla.lcsn.net/)
 == Links ==
 Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
 == Support ==
 [Support](http://wordpress.org/tags/wp-admin-bar-removal/)
+== Todo List ==
+Nothing for now ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/languages/wp-admin-bar-removal.pot)
 == Updates ==
