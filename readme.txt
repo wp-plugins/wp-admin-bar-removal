@@ -1,7 +1,7 @@
 === Admin Bar Removal (completely disable) ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, backend, beta1, beta2, beta2-17056,
+Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, code, beta1, beta2, beta2-17056,
 Stable tag: 2010.1220.1638
 Requires at least: 3.1
 Tested up to: 3.1-beta2-17056
@@ -25,37 +25,9 @@ Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New Wo
 = Troubleshooting =
 If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-admin-bar-removal/
 == Frequently Asked Questions ==
-* License
+WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ...
 
- * This program is free software, but licensed work is under Creative Commons License;
-   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
-
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
-= Admin Bar Removal =
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
-
-Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
-Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
-
-`Nothing is written into space disk or VPS
-Nothing is written into database!
-Nothing is written into wp_option database table!
-Nothing is added into database during activation!
-Nothing is added into wp_option database table during activation!
-No need to delete anything from space disk or VPS when deactivate
-No need to delete anything from the database when deactivate!
-No need to delete anything from the wp_option when deactivate!
-No need to delete anything from space disk or VPS when removed!
-No need to delete anything from the database when removed!
-No need to delete anything from the wp_option when removed!
-Not need other actions except installing or uninstall it!
-Work with Shared and VPS Hosting`
-== Screenshots ==
-[Screenshot](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/screenshots/screenshot.jpg) of the Admin Bar Removal on WordPress `3.1-beta2-17056`.
-
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -140,32 +112,27 @@ Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Compatibility Upgrade.
 Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
-== Admin Bar Removal (completely disable) ==
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-beta2-17056 and Network Multisite compatible work with Shared and VPS Hosting. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+== Licensing ==
+* License
 
-Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
-Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * This program is free software, but licensed work is under Creative Commons License;
+   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
 
-`Nothing is written into space disk or VPS
-Nothing is written into database!
-Nothing is written into wp_option database table!
-Nothing is added into database during activation!
-Nothing is added into wp_option database table during activation!
-No need to delete anything from space disk or VPS when deactivate
-No need to delete anything from the database when deactivate!
-No need to delete anything from the wp_option when deactivate!
-No need to delete anything from space disk or VPS when removed!
-No need to delete anything from the database when removed!
-No need to delete anything from the wp_option when removed!
-Not need other actions except installing or uninstall it!
-Work with Shared and VPS Hosting`
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
 == Todo List ==
 Nothing for now ...
+== Donations ==
+[Donate](http://donate.sla.lcsn.net/)
+== Links ==
+Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
+== Support ==
+[Support](http://wordpress.org/tags/wp-admin-bar-removal/)
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/languages/wp-admin-bar-removal.pot)
-== Links ==
-Thanks to all keep the [Credit Link](http://sla.lcsn.net/) :D
 == Updates ==
-[Update Link](http://svn.sla.lcsn.net/wp-admin-bar-removal/)
+[SVN Repo](http://plugins.svn.wordpress.org/wp-admin-bar-removal/)
+[TRAC Browse](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/)
 == Thanks ==
 Part of copyright belongs to sLa and a portion to their respective owners.
