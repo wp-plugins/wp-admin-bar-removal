@@ -27,8 +27,8 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ...
 
-= Control Panel show Admin Bar CSS Alone after Plugin is Enabled =
-[SOLUTION] Go to on User Profile before enable Plugin and deselect from menu -> Show Admin Bar ->> when viewing site ->> in dashboard - After this task enable plugin ;)
+= Control Panel show Admin Bar CSS Alone after Plugin is enabled =
+[SOLVED] Go to on User Profile before enable Plugin and deselect from menu -> Show Admin Bar ->> when viewing site ->> in dashboard - After this task enable plugin ;)
 
 Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-RC1-17163 and Network Multisite compatible work with Shared and VPS Hosting.
 
@@ -54,69 +54,68 @@ Development Release: Version 2010 Build 1230-BUGFIX Revision 0000
 Stable Release: Version 2010 Build 1229 Revision 1656`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
 = 2010.1229.1656 =
-* Critical Update [CRITICAL] Fixed Ticket #16004 #15829 Update 3.1-RC1-17163
+* Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
  * Please update as soon possible!
  * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004) 
- * FIXED [Ticket #15829](http://core.trac.wordpress.org/ticket/15829)
  * UPDATE Preemptive support WP 3.1-RC1-17163
- * Completely Disable Admin Bar Frontend Backend User and Code
+ * Completely Disable Admin Bar Frontend Backend User and Code.
  * Bump Version 2010 Build 1229 Revision 1656
 = 2010.1226.0230 =
-* Silent Update [MAINTENANCE] WP 3.1-RC1
+* Silent Update [MAINTENANCE] WP 3.1-RC1 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-RC1
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1226 Revision 0230
 = 2010.1220.1638 =
-* Silent Update [MAINTENANCE] WP 3.1-beta2-17056
+* Silent Update [MAINTENANCE] WP 3.1-beta2-17056 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta2-17056
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1220 Revision 1638
 = 2010.1217.0257 =
-* Silent Update [MAINTENANCE] WP 3.1-beta2-16997
+* Silent Update [MAINTENANCE] WP 3.1-beta2-16997 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta2-16997
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1217 Revision 0257
 = 2010.1215.0633 =
-* Silent Update [MAINTENANCE] WP 3.1-beta2
+* Silent Update [MAINTENANCE] WP 3.1-beta2 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta2
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1215 Revision 0633
 = 2010.1213.0340 =
-* Silent Update [MAINTENANCE] WP 3.1-beta1-16884
+* Silent Update [MAINTENANCE] WP 3.1-beta1-16884 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta1-16884
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1213 Revision 0340
 = 2010.1211.0103 =
-* Silent Update [MAINTENANCE] WP 3.1-beta1-16732
+* Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta1-16732
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1211 Revision 0103
 = 2010.1201.1918 =
-* Silent Update [MAINTENANCE] WP 3.1-beta1
+* Silent Update [MAINTENANCE] WP 3.1-beta1 Upgrade.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-beta1
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Bump Version 2010 Build 1201 Revision 1918
 = 2010.1025.0356 =
 * First Public Release (full WP 3.1-alpha compatible)
- * Completely Disable Admin Bar Frontend and Backend
+ * Completely Disable Admin Bar Frontend and Backend.
  * Preemptive support WP 3.1-alpha
  * Plugin Memory Consumption (less of 1KB or no more)
  * Only 3KB of unique php plugin file.
  * Full Strict Security Rules Applied.
  * Code Cleanup for faster loading.
- * Nothing is written into your space disk
- * Nothing is written into your database or wp_option table
+ * Nothing is written into your space disk.
+ * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
 = 2010.1229.1656 =
-* Critical Update [CRITICAL] Fixed Ticket #16004 #15829 Update 3.1-RC1-17163
+* Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
 = 2010.1226.0230 =
 Silent Update [MAINTENANCE] WP 3.1-RC1 Compatibility Upgrade.
 = 2010.1220.1638 =
