@@ -1,17 +1,17 @@
 === Admin Bar Removal (completely disable) ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, code, beta1, beta2, RC1,
-Stable tag: 2010.1226.0230
+Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC1-17163,
+Stable tag: 2010.1229.1656
 Requires at least: 3.1
 Tested up to: 3.1
 Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Frontend and Backend Code that now appears on the Public Side of WP 3.1 based blogs.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Full 3.1-RC1 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Full 3.1-RC1-17163 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
-2. Upload it into your plugins directory.
+2. Upload it into your plugins directory from Plugin Add Feature or FTP.
 3. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
 4. Active Admin Bar Removal.
 = How to install Admin Bar Removal (auto) =
@@ -27,7 +27,10 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ...
 
-Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-RC1 and Network Multisite compatible work with Shared and VPS Hosting.
+= Control Panel show Admin Bar CSS Alone after Plugin is Enabled =
+[SOLUTION] Go to on User Profile before enable Plugin and deselect from menu -> Show Admin Bar ->> when viewing site ->> in dashboard - After this task enable plugin ;)
+
+Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. Full 3.1-RC1-17163 and Network Multisite compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -47,9 +50,17 @@ Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Changelog ==
 `History Release's:
-Development Release: Version 2010 Build 1227-BUGFIX Revision 0000
-Stable Release: Version 2010 Build 1226 Revision 0230`
+Development Release: Version 2010 Build 1230-BUGFIX Revision 0000
+Stable Release: Version 2010 Build 1229 Revision 1656`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
+= 2010.1229.1656 =
+* Critical Update [CRITICAL] Fixed Ticket #16004 #15829 Update 3.1-RC1-17163
+ * Please update as soon possible!
+ * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004) 
+ * FIXED [Ticket #15829](http://core.trac.wordpress.org/ticket/15829)
+ * UPDATE Preemptive support WP 3.1-RC1-17163
+ * Completely Disable Admin Bar Frontend Backend User and Code
+ * Bump Version 2010 Build 1229 Revision 1656
 = 2010.1226.0230 =
 * Silent Update [MAINTENANCE] WP 3.1-RC1
  * Please update as soon possible!
@@ -104,6 +115,8 @@ Stable Release: Version 2010 Build 1226 Revision 0230`
  * Nothing is written into your database or wp_option table
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
+= 2010.1229.1656 =
+* Critical Update [CRITICAL] Fixed Ticket #16004 #15829 Update 3.1-RC1-17163
 = 2010.1226.0230 =
 Silent Update [MAINTENANCE] WP 3.1-RC1 Compatibility Upgrade.
 = 2010.1220.1638 =
