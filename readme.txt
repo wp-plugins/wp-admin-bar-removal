@@ -1,6 +1,6 @@
 === Admin Bar Removal (completely disable) ===
 Contributors: sLa
-Donate link: http://donate.sla.lcsn.net/
+Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC2, RC2-17229
 Stable tag: 2011.0106.1427
 Requires at least: 3.1
