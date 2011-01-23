@@ -54,7 +54,7 @@ Development Release: Version 2010 Build 0124-BUGFIX Revision 0000
 Stable Release: Version 2011 Build 0123 Revision 0444`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
 = 2011.0123.0444 =
-* Silent Update [MAINTENANCE] WP 3.1-RC3 Compatibility Upgrade.
+* Silent Update [UPGRADE] WP 3.1-RC3 Compatibility.
  * Please update as soon possible!
  * UPDATE Preemptive support WP 3.1-RC3
  * Completely Disable Admin Bar Frontend Backend User and Remove Code.
@@ -135,7 +135,7 @@ Stable Release: Version 2011 Build 0123 Revision 0444`
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
 = 2011.0123.0444 =
-* Silent Update [MAINTENANCE] WP 3.1-RC3 Compatibility Upgrade. Completely Disable Admin Bar Frontend Backend User and Remove Code.
+* Silent Update [UPGRADE] WP 3.1-RC3 Compatibility. Completely Disable Admin Bar Frontend Backend User and Remove Code.
 = 2011.0106.1427 =
 * Silent Update [MAINTENANCE] WP 3.1-RC2-17229 Compatibility Upgrade.
 = 2011.0101.1111 =
