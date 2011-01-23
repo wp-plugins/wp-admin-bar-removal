@@ -26,7 +26,7 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  * @package WordPress
  * @subpackage PlugIn
  * @author sLa
- * @since 3.1
+ * @since 3.1.0
  * @version 2011.0124.0000
  */
 /*if ( version_compare($wp_version, "3.1", "<" ) ) {
@@ -34,11 +34,11 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
 }*/
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpabr_footer_log(){echo"\n<!--Plugin Admin Bar Removal 2011.0124.0000 Active-->\n";}add_action('wp_head','wpabr_footer_log');add_action('wp_footer','wpabr_footer_log')?><?php
-add_filter('show_admin_bar','__return_false')?><?php
 remove_action('init','wp_admin_bar_init');
 remove_filter('init','wp_admin_bar_init');
 foreach(array('wp_footer','wp_admin_bar_render')as$filter);
 add_action($filter,'wp_admin_bar_render',1000);
+foreach(array('wp_footer','wp_admin_bar_render')as$filter)add_action($filter,'wp_admin_bar_render',1000);
 remove_action('wp_head','wp_admin_bar_render',1000);
 remove_filter('wp_head','wp_admin_bar_render',1000);
 remove_action('wp_footer','wp_admin_bar_render',1000);
@@ -82,4 +82,5 @@ remove_filter('personal_options',$profileuser->ID);
 remove_action('profile_personal_options',$profileuser);
 remove_filter('profile_personal_options',$profileuser);
 
-remove_filter('locale','wp_admin_bar_lang')?>
+remove_filter('locale','wp_admin_bar_lang')?><?php
+add_filter('show_admin_bar','__return_false')?>
