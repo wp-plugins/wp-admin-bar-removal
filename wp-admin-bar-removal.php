@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Admin Bar Removal (RC3)
+Plugin Name: Admin Bar Removal (RC3-17365)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.1 <code>Admin Bar</code> Frontend Backend User. Completely <code>Remove Code</code> for minimal memory load | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
 Version: 2011.0123.0444
@@ -26,7 +26,6 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  * @package WordPress
  * @subpackage PlugIn
  * @author sLa
- * @since 3.1
  * @version 2011.0124.0000
  */
 /*if ( version_compare($wp_version, "3.1", "<" ) ) {
