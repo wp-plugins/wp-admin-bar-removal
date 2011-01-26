@@ -156,7 +156,6 @@ Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
 == Licensing ==
-Admin Bar Removal Completely Disable Frontend/Backend Menu that now appears on WordPress 3.1 based blogs, plus Remove Code for minimal memory load.
 * License
 
  * This program is free software, but licensed work is under Creative Commons License;
