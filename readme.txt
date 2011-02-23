@@ -1,13 +1,13 @@
-=== Admin Bar Removal (completely disable) RC3-17365 ===
+=== Admin Bar Removal (completely disable) 3.1 only ===
 Contributors: sLa
 Donate link: http://lcsn.net/donate/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC2, RC3,
-Stable tag: 2011.0123.0444
+Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC2, RC3, RC4, RC5,
+Stable tag: 2011.0223.2011
 Requires at least: 3.1
 Tested up to: 3.1
 Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1 based blogs, plus Remove Code and free memory.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1-RC3-17365 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
@@ -27,7 +27,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... 
 
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1-RC3-17365 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting.
 
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -46,10 +46,23 @@ No need to delete anything from the wp_option when removed!
 Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Changelog ==
-`History Release's:
-Development Release: Version 2010 Build 0126-BUGFIX Revision 0456
-Stable Release: Version 2011 Build 0123 Revision 0444`
-*All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
+`All previous release, prior of latest stable, are on fact deprecated and no longer
+supported on this project: is very suggested upgrade to the latest build always!`
+= Development Release =
+Version 2011 Build 0224-BUGFIX Revision 0000-DEVELOPMENTAL
+= 2011.0223.2011 =
+* Major Update [STABLE] Full WordPress 3.1 Compatible.
+ * Please update as soon possible!
+ * UPDATE Full WordPress 3.1 Support.
+ * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * Completely Disable Admin Bar Frontend Backend and Remove Code.
+ * Plugin Memory Consumption (less of 1KB or no more)
+ * Only 3KB of unique php plugin file.
+ * Full Strict Security Rules Applied.
+ * Code Cleanup for faster loading.
+ * Nothing is written into your space disk.
+ * Nothing is written into your database or wp_option table.
+ * Bump Version 2011 Build 0223 Revision 2011
 = 2011.0123.0444 =
 * Silent Update [UPGRADE] WP 3.1-RC3 Compatibility.
  * Please update as soon possible!
@@ -73,7 +86,7 @@ Stable Release: Version 2011 Build 0123 Revision 0444`
 = 2010.1229.1656 =
 * Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
  * Please update as soon possible!
- * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004) 
+ * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
  * UPDATE Preemptive support WP 3.1-RC1-17163
  * Completely Disable Admin Bar Frontend Backend User and Code.
  * Bump Version 2010 Build 1229 Revision 1656
@@ -131,6 +144,8 @@ Stable Release: Version 2011 Build 0123 Revision 0444`
  * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
+= 2011.0223.2011 =
+* Major Update [STABLE] Full WordPress 3.1 Compatible. Completely Disable Admin Bar Frontend Backend and Remove Code.
 = 2011.0123.0444 =
 * Silent Update [UPGRADE] WP 3.1-RC3 Compatibility. Completely Disable Admin Bar Frontend Backend and Remove Code.
 = 2011.0106.1427 =
@@ -156,6 +171,7 @@ Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 = 2010.1025.0356 =
 First Public Release (full WP 3.1-alpha compatible)
 == Licensing ==
+
 * License
 
  * This program is free software, but licensed work is under Creative Commons License;
@@ -164,8 +180,9 @@ First Public Release (full WP 3.1-alpha compatible)
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
-== Donations ==
-[Donate](http://donate.sla.lcsn.net/)
+
+ * Part of copyright belongs to sLaT and a portion to their respective owners.
+   Not For Resale or Business Purpose.
 == Links ==
 Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
 == Support ==
@@ -178,4 +195,5 @@ Nothing for now ...
 [SVN Repo](http://plugins.svn.wordpress.org/wp-admin-bar-removal/)
 [TRAC Browse](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/)
 == Thanks ==
-Part of copyright belongs to sLa and a portion to their respective owners.
+Part of copyright belongs to sLaT and a portion to their respective owners.
+Not For Resale or Business Purpose.
