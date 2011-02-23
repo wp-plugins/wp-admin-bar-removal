@@ -1,0 +1,199 @@
+=== Admin Bar Removal (completely disable) 3.1 only ===
+Contributors: sLa
+Donate link: http://lcsn.net/donate/
+Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC2, RC3, RC4, RC5,
+Stable tag: 2011.0223.2011
+Requires at least: 3.1
+Tested up to: 3.1
+Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1 based blogs, plus Remove Code and free memory.
+== Description ==
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+== Installation ==
+= How to install Admin Bar Removal (manual) =
+1. Download Admin Bar Removal.
+2. Upload it into your plugins directory from Plugin Add Feature or FTP.
+3. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
+4. Active Admin Bar Removal.
+= How to install Admin Bar Removal (auto) =
+1. Search Admin Bar Removal from Plugin Add Feature.
+2. Install it live directly from wordpress.org repository.
+3. It will create a directory /wp-content/plugins`/wp-admin-bar-removal/`
+4. Active Admin Bar Removal.
+= How to uninstall Admin Bar Removal =
+1. Disable Admin Bar Removal from Menu Plugins of Control Panel.
+2. Delete Admin Bar Removal from Menu Plugins of Control Panel.
+= Troubleshooting =
+If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-admin-bar-removal/
+== Frequently Asked Questions ==
+WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... 
+
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting.
+
+Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+
+`Nothing is written into space disk or VPS
+Nothing is written into database!
+Nothing is written into wp_option database table!
+Nothing is added into database during activation!
+Nothing is added into wp_option database table during activation!
+No need to delete anything from space disk or VPS when deactivate
+No need to delete anything from the database when deactivate!
+No need to delete anything from the wp_option when deactivate!
+No need to delete anything from space disk or VPS when removed!
+No need to delete anything from the database when removed!
+No need to delete anything from the wp_option when removed!
+Not need other actions except installing or uninstall it!
+Work with Shared and VPS Hosting`
+== Changelog ==
+`All previous release, prior of latest stable, are on fact deprecated and no longer
+supported on this project: is very suggested upgrade to the latest build always!`
+= Development Release =
+Version 2011 Build 0224-BUGFIX Revision 0000-DEVELOPMENTAL
+= 2011.0223.2011 =
+* Major Update [STABLE] Full WordPress 3.1 Compatible.
+ * Please update as soon possible!
+ * UPDATE Full WordPress 3.1 Support.
+ * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * Completely Disable Admin Bar Frontend Backend and Remove Code.
+ * Plugin Memory Consumption (less of 1KB or no more)
+ * Only 3KB of unique php plugin file.
+ * Full Strict Security Rules Applied.
+ * Code Cleanup for faster loading.
+ * Nothing is written into your space disk.
+ * Nothing is written into your database or wp_option table.
+ * Bump Version 2011 Build 0223 Revision 2011
+= 2011.0123.0444 =
+* Silent Update [UPGRADE] WP 3.1-RC3 Compatibility.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-RC3
+ * Completely Disable Admin Bar Frontend Backend and Remove Code.
+ * Bump Version 2011 Build 0123 Revision 0444
+= 2011.0106.1427 =
+* Silent Update [MAINTENANCE] WP 3.1-RC2-17229 Compatibility Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-RC2-17229
+ * Completely Disable Admin Bar Frontend Backend User and Code.
+ * Bump Version 2011 Build 0106 Revision 1427
+= 2011.0101.1111 =
+* Silent Update [MAINTENANCE] WP 3.1-RC2 Compatibility Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-RC2
+ * The First Stable 2011 New Full Release.
+ * The Last stable 2010 Full Release is 2010.1229.1656
+ * Completely Disable Admin Bar Frontend Backend User and Code.
+ * Bump Version 2011 Build 0101 Revision 1111
+= 2010.1229.1656 =
+* Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
+ * Please update as soon possible!
+ * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * UPDATE Preemptive support WP 3.1-RC1-17163
+ * Completely Disable Admin Bar Frontend Backend User and Code.
+ * Bump Version 2010 Build 1229 Revision 1656
+= 2010.1226.0230 =
+* Silent Update [MAINTENANCE] WP 3.1-RC1 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-RC1
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1226 Revision 0230
+= 2010.1220.1638 =
+* Silent Update [MAINTENANCE] WP 3.1-beta2-17056 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta2-17056
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1220 Revision 1638
+= 2010.1217.0257 =
+* Silent Update [MAINTENANCE] WP 3.1-beta2-16997 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta2-16997
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1217 Revision 0257
+= 2010.1215.0633 =
+* Silent Update [MAINTENANCE] WP 3.1-beta2 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta2
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1215 Revision 0633
+= 2010.1213.0340 =
+* Silent Update [MAINTENANCE] WP 3.1-beta1-16884 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta1-16884
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1213 Revision 0340
+= 2010.1211.0103 =
+* Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta1-16732
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1211 Revision 0103
+= 2010.1201.1918 =
+* Silent Update [MAINTENANCE] WP 3.1-beta1 Upgrade.
+ * Please update as soon possible!
+ * UPDATE Preemptive support WP 3.1-beta1
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Bump Version 2010 Build 1201 Revision 1918
+= 2010.1025.0356 =
+* First Public Release (full WP 3.1-alpha compatible)
+ * Completely Disable Admin Bar Frontend and Backend.
+ * Preemptive support WP 3.1-alpha
+ * Plugin Memory Consumption (less of 1KB or no more)
+ * Only 3KB of unique php plugin file.
+ * Full Strict Security Rules Applied.
+ * Code Cleanup for faster loading.
+ * Nothing is written into your space disk.
+ * Nothing is written into your database or wp_option table.
+ * Bump Version 2010 Build 1025 Revision 0356
+== Upgrade Notice ==
+= 2011.0223.2011 =
+* Major Update [STABLE] Full WordPress 3.1 Compatible. Completely Disable Admin Bar Frontend Backend and Remove Code.
+= 2011.0123.0444 =
+* Silent Update [UPGRADE] WP 3.1-RC3 Compatibility. Completely Disable Admin Bar Frontend Backend and Remove Code.
+= 2011.0106.1427 =
+* Silent Update [MAINTENANCE] WP 3.1-RC2-17229 Compatibility Upgrade.
+= 2011.0101.1111 =
+* Silent Update [MAINTENANCE] WP 3.1-RC2 Compatibility Upgrade.
+= 2010.1229.1656 =
+* Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
+= 2010.1226.0230 =
+Silent Update [MAINTENANCE] WP 3.1-RC1 Compatibility Upgrade.
+= 2010.1220.1638 =
+Silent Update [MAINTENANCE] WP 3.1-beta2-17056 Compatibility Upgrade.
+= 2010.1213.0340 =
+Silent Update [MAINTENANCE] WP 3.1-beta2-16997 Compatibility Upgrade.
+= 2010.1213.0340 =
+Silent Update [MAINTENANCE] WP 3.1-beta2 Compatibility Upgrade.
+= 2010.1213.0340 =
+Silent Update [MAINTENANCE] WP 3.1-beta1-16884 Compatibility Upgrade.
+= 2010.1211.0103 =
+Silent Update [MAINTENANCE] WP 3.1-beta1-16732 Compatibility Upgrade.
+= 2010.1201.1918 =
+Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
+= 2010.1025.0356 =
+First Public Release (full WP 3.1-alpha compatible)
+== Licensing ==
+
+* License
+
+ * This program is free software, but licensed work is under Creative Commons License;
+   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+
+ * Part of copyright belongs to sLaT and a portion to their respective owners.
+   Not For Resale or Business Purpose.
+== Links ==
+Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
+== Support ==
+[Support](http://wordpress.org/tags/wp-admin-bar-removal/)
+== Todo List ==
+Nothing for now ...
+== Translations ==
+[Translation Link](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/languages/wp-admin-bar-removal.pot)
+== Updates ==
+[SVN Repo](http://plugins.svn.wordpress.org/wp-admin-bar-removal/)
+[TRAC Browse](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/)
+== Thanks ==
+Part of copyright belongs to sLaT and a portion to their respective owners.
+Not For Resale or Business Purpose.
