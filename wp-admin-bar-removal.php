@@ -6,16 +6,26 @@ Description: Completely <code>Disable</code> new WordPress 3.1 <code>Admin Bar</
 Version: 2011.0223.2011
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
+License: GPLv2 or later
  * 
  * Development Release: Version 2011 Build 0224-BUGFIX Revision 0000-DEVELOPMENTAL
  * Stable Release: Version 2011 Build 0223 Revision 2011
  *
- *  This program is free software GPL, but licensed work is under Creative Commons License;
- *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+ *  Admin Bar Removal - WordPress PlugIn
  *
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- *  without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *  See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  of the License, or (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
  * Part of Copyright © 2010-2011 belongs to sLaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
  * and a portion to their respective owners. Not For Resale or Business Purpose.

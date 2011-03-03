@@ -6,13 +6,10 @@ Deny From All
 Order Allow,Deny
 Deny From All
 </Files>
-#<Files ~ ".*\..*">
-#Order Allow,Deny
-#Deny From All
-#</Files>
+<Files gpl-2.0.txt>
+Order Allow,Deny
+Deny From All
+</Files>
 DirectoryIndex index.html
 IndexIgnore *
 Options -Indexes
-#Options All -Indexes
-#RedirectMatch 403 /\..*$
-#Uncomment and test for maximun security, but after verify compatibility of your server ...
