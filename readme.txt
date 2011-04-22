@@ -1,4 +1,4 @@
-=== Admin Bar Removal (completely disable) 3.1 or higher only ===
+=== Admin Bar Removal (completely disable) 3.1+ only ===
 Contributors: sLa
 Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 28px, filter, hide, personal, options, css, class, 3.1, 3.1.1, 3.1.2, 3.2, admin, frontend, filters, remove, backend, user, code, beta1, beta2, RC1, RC2, RC3, RC4, RC5, 3.1.2-alpha, 3.2-bleeding, plugin, api, reference
@@ -6,7 +6,7 @@ Stable tag: 2011.0223.2011
 Requires at least: 3.1
 Tested up to: 3.2
 License: GPLv2 or later
-Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1 based blogs, plus Remove Code and free memory.
+Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1+ based blogs, plus Remove Code and free memory.
 == Description ==
 Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 == Installation ==
@@ -30,8 +30,9 @@ WARNING! Disable admin bar on user profile turn off only Theme Integration, but 
 
 Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting.
 
-Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+Try also [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 
 `Nothing is written into space disk or VPS
 Nothing is written into database!
@@ -52,11 +53,15 @@ supported on this project: is very suggested upgrade to the latest build always!
 = Development Release =
 Version 2011 Build 0423-BUGFIX Revision 0120-DEVELOPMENTAL
 = 2011.0223.2011 =
-* Major Update [STABLE] Full WordPress 3.1 Compatible.
+* Major Update [STABLE] Full WordPress 3.1+ Compatible.
  * Please update as soon possible!
- * UPDATE Full WordPress 3.1 Support.
+ * UPDATE Full WordPress 3.1+ Support.
  * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * FIXED 28px related issues
+ * FIXED Personal Options Class on User Profile (hide related)
  * Completely Disable Admin Bar Frontend Backend and Remove Code.
+ * Completely Deregister unwanted css js ajax script
+ * Completely Remove unwanted Admin Bar functions API
  * Plugin Memory Consumption (less of 1KB or no more)
  * Only 3KB of unique php plugin file.
  * Full Strict Security Rules Applied.
