@@ -3,14 +3,14 @@
 Plugin Name: Admin Bar Removal (3.1 or higher only)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a>
-Version: 2011.0422-BUGFIX.2251-DEVELOPMENTAL
+Version: 2011.0423-BUGFIX.0120-DEVELOPMENTAL
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 3.1
 Tested up to: 3.2
 License: GPLv2 or later
  * 
- * Development Release: Version 2011 Build 0422-BUGFIX Revision 2251-DEVELOPMENTAL
+ * Development Release: Version 2011 Build 0423-BUGFIX Revision 0120-DEVELOPMENTAL
  * Stable Release: Version 2011 Build 0223 Revision 2011
  *
  *  Admin Bar Removal - WordPress PlugIn
@@ -36,11 +36,11 @@ License: GPLv2 or later
  * @package Admin Bar Removal
  * @subpackage WordPress PlugIn
  * @since 3.1.0
- * @version 2011.0422-BUGFIX.2251-DEVELOPMENTAL
+ * @version 2011.0423-BUGFIX.0120-DEVELOPMENTAL
  *
  * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
  */
-if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();};function wpabr_footer_log(){echo"<!--Plugin Admin Bar Removal 2011.0422-BUGFIX.2251-DEVELOPMENTAL Active-->";};add_action('wp_head','wpabr_footer_log');add_action('wp_footer','wpabr_footer_log');
+if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();};function wpabr_footer_log(){echo"<!--Plugin Admin Bar Removal 2011.0423-BUGFIX.0120-DEVELOPMENTAL Active-->";};add_action('wp_head','wpabr_footer_log');add_action('wp_footer','wpabr_footer_log');
 
 function wpabr_ruppoabpc(){echo'<style type="text/css">.show-admin-bar{display:none}</style>';};add_action('admin_print_styles-profile.php','wpabr_ruppoabpc');
 
@@ -67,15 +67,15 @@ remove_action('wp_before_admin_bar_render','wp_admin_bar_blog_separator',40);
 remove_action('wp_before_admin_bar_render','wp_admin_bar_bloginfo_menu',50);
 remove_action('wp_before_admin_bar_render','wp_admin_bar_edit_menu',100);
 
-remove_filter('wp_head','wp_admin_bar',);
-remove_filter('wp_footer','wp_admin_bar',);
-remove_filter('admin_head','wp_admin_bar',);
-remove_filter('admin_footer','wp_admin_bar',);
+remove_filter('wp_head','wp_admin_bar');
+remove_filter('wp_footer','wp_admin_bar');
+remove_filter('admin_head','wp_admin_bar');
+remove_filter('admin_footer','wp_admin_bar');
 
-remove_filter('wp_head','wp_admin_bar_class',);
-remove_filter('wp_footer','wp_admin_bar_class',);
-remove_filter('admin_head','wp_admin_bar_class',);
-remove_filter('admin_footer','wp_admin_bar_class',);
+remove_filter('wp_head','wp_admin_bar_class');
+remove_filter('wp_footer','wp_admin_bar_class');
+remove_filter('admin_head','wp_admin_bar_class');
+remove_filter('admin_footer','wp_admin_bar_class');
 
 remove_action('init','wp_admin_bar_init');
 remove_filter('init','wp_admin_bar_init');
