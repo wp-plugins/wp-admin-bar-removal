@@ -8,7 +8,7 @@ Tested up to: 3.2
 License: GPLv2 or later
 Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1+ based blogs, plus Remove Code and free memory.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) plus [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) and [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
@@ -28,7 +28,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... 
 
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1 based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1 and Network Multisite compatible work with Shared and VPS Hosting.
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting.
 
 Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -51,7 +51,7 @@ Work with Shared and VPS Hosting`
 `All previous release, prior of latest stable, are on fact deprecated and no longer
 supported on this project: is very suggested upgrade to the latest build always!`
 = Development Release =
-Version 2011 Build 0423-BUGFIX Revision 0120-DEVELOPMENTAL
+Version 2011 Build 0423-BUGFIX Revision 0226-DEVELOPMENTAL
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1+ Compatible.
  * Please update as soon possible!
@@ -61,9 +61,9 @@ Version 2011 Build 0423-BUGFIX Revision 0120-DEVELOPMENTAL
  * FIXED Personal Options Class on User Profile (hide related)
  * Completely Disable Admin Bar Frontend Backend and Remove Code.
  * Completely Deregister unwanted css js ajax script
- * Completely Remove unwanted Admin Bar functions API
+ * Completely Remove unwanted Admin Bar Functions API
  * Plugin Memory Consumption (less of 1KB or no more)
- * Only 3KB of unique php plugin file.
+ * Only 6KB of unique php plugin file.
  * Full Strict Security Rules Applied.
  * Code Cleanup for faster loading.
  * Nothing is written into your space disk.
