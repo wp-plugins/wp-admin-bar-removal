@@ -65,7 +65,7 @@ Work with Shared and VPS Hosting`
 `All previous release, prior of latest stable, are on fact deprecated and no longer
 supported on this project: is very suggested upgrade to the latest build always!`
 = Development Release =
-Version 2011 Build 0423-BUGFIX Revision 0226-DEVELOPMENTAL
+Version 2011 Build 0423-BUGFIX Revision 0530-DEVELOPMENTAL
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1+ Compatible.
  * Please update as soon possible!
