@@ -34,6 +34,10 @@ Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-sche
 Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try also [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 
+* Tested and Reviewed by: 
+ * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
+ * [www.netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
+
 `Nothing is written into space disk or VPS
 Nothing is written into database!
 Nothing is written into wp_option database table!
