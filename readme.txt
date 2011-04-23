@@ -8,7 +8,16 @@ Tested up to: 3.2
 License: GPLv2 or later
 Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1+ based blogs, plus Remove Code and free memory.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) plus [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) and [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting.
+
+* Try also:
+ * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+
+* Tested and Reviewed by: 
+ * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
+ * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
@@ -30,13 +39,14 @@ WARNING! Disable admin bar on user profile turn off only Theme Integration, but 
 
 Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting.
 
-Try also [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
-Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
-Try also [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+* Try also:
+ * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 
 * Tested and Reviewed by: 
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
- * [www.netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
+ * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
 
 `Nothing is written into space disk or VPS
 Nothing is written into database!
