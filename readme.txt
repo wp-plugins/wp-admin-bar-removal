@@ -15,7 +15,8 @@ Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Fro
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
  * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 
-* Tested and Reviewed by: 
+* Tested and Reviewed by:
+ * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
  * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
 == Installation ==
@@ -44,11 +45,13 @@ Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Fro
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
  * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
 
-* Tested and Reviewed by: 
+* Tested and Reviewed by:
+ * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
  * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
 
-`Nothing is written into space disk or VPS
+`
+Nothing is written into space disk or VPS
 Nothing is written into database!
 Nothing is written into wp_option database table!
 Nothing is added into database during activation!
