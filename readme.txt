@@ -77,6 +77,7 @@ supported on this project: is very suggested upgrade to the latest build always!
  * UPDATE Full WordPress 3.2+ Support.
  * NEW Maximun Free Memory Optimized!
  * NEW Cleaned unneeded code removal.
+ * WARNING Not Working on WordPress 3.3+
  * Bump Version 2011 Build 0921 Revision 2011
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1+ Compatible.
@@ -177,7 +178,7 @@ supported on this project: is very suggested upgrade to the latest build always!
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
 = 2011.0921.2011 =
-* Major Update [STABLE] Full WordPress 3.2 Compatible. Maximun Free Memory Optimized!
+* Major Update [STABLE] Full WordPress 3.2 Compatible. Maximun Free Memory Optimized! Not Working on WordPress 3.3+
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1 Compatible. Completely Disable Admin Bar Frontend Backend and Remove Code.
 = 2011.0123.0444 =
