@@ -71,7 +71,7 @@ Work with Shared and VPS Hosting`
 supported on this project: is very suggested upgrade to the latest build always!`
 = Development Release =
 [Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
-= 2011.0223.2011 =
+= 2011.0921.2011 =
 * Major Update [STABLE] Full WordPress 3.2+ Compatible.
  * Please update as soon possible!
  * UPDATE Full WordPress 3.2+ Support.
