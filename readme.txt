@@ -1,14 +1,16 @@
-=== Admin Bar Removal (completely disable) 3.1+ only ===
+=== Admin Bar Removal (completely disable) 3.1+ and 3.2+ only ===
 Contributors: sLa
 Donate link: http://lcsn.net/donate/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 28px, filter, hide, personal, options, css, class, 3.1, 3.1.1, 3.1.2, 3.2, admin, frontend, filters, remove, backend, user, code, beta1, beta2, RC1, RC2, RC3, RC4, RC5, 3.1.2-alpha, 3.2-bleeding, plugin, api, reference
-Stable tag: 2011.0223.2011
+Tags: wp, bar, removal, completely, disable, new, wordpress, 28px, filter, hide, personal, options, css, class, 3.1, 3.1.1, 3.1.2, 3.2, 3.2.1, 3.2.2, admin, frontend, filters, remove, backend, user, code, plugin, api, reference
+Stable tag: 2011.0921.2011
 Requires at least: 3.1
-Tested up to: 3.2
+Tested up to: 3.2.2
 License: GPLv2 or later
-Admin Bar Removal Completely Disable Frontend and Backend Menu that now appears on the WordPress 3.1+ based blogs, plus Remove Code and free memory.
+Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ and 3.2+ (only) based blogs, plus Remove Code and free memory.
 == Description ==
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Admin Bar Removal deregister admin-bar style and script remove wp-admin-bar filter and all others related files .js and .css to load and run on WordPress. Admin Bar Removal hide personal options on user profile. Admin Bar Removal minimize load memory on WordPress. Admin Bar Removal is automatic unique plugin file to put on mu-plugin directory on your wordPress installation for automatic activation since setup! Admin Bar Removal disable globally Admin Bar at max user levl (10) on one single step only. Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting, plus both Per-Site and Per-Network (WordPress Multisite). 
+Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ and 3.2+ (only) based blogs, plus <code>Remove Code</code> for minimal memory load. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Admin Bar Removal deregister admin-bar style and script remove wp-admin-bar filter and all others related files .js and .css to load and run on WordPress. Admin Bar Removal hide personal options on user profile. Admin Bar Removal minimize load memory on WordPress. Admin Bar Removal is automatic unique plugin file to put on mu-plugin directory on your wordPress installation for automatic activation since setup! Admin Bar Removal disable globally Admin Bar at max user levl (10) on one single step only. Full Network Multisite compatible work with Shared and VPS Hosting, plus both Per-Site and Per-Network (WordPress Multisite).
+
+Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. Future 2012 release of this plugin, compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -38,7 +40,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... 
 
-Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ based blogs, plus <code>Remove Code</code> for minimal memory load. Full 3.1+ and Network Multisite compatible work with Shared and VPS Hosting.
+Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. Future 2012 release of this plugin, compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -68,7 +70,14 @@ Work with Shared and VPS Hosting`
 `All previous release, prior of latest stable, are on fact deprecated and no longer
 supported on this project: is very suggested upgrade to the latest build always!`
 = Development Release =
-Version 2011 Build 0423-BUGFIX Revision 0530-DEVELOPMENTAL
+Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL
+= 2011.0223.2011 =
+* Major Update [STABLE] Full WordPress 3.2+ Compatible.
+ * Please update as soon possible!
+ * UPDATE Full WordPress 3.2+ Support.
+ * NEW Maximun Free Memory Optimized!
+ * NEW Cleaned unneeded code removal.
+ * Bump Version 2011 Build 0921 Revision 2011
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1+ Compatible.
  * Please update as soon possible!
@@ -167,6 +176,8 @@ Version 2011 Build 0423-BUGFIX Revision 0530-DEVELOPMENTAL
  * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
+= 2011.0921.2011 =
+* Major Update [STABLE] Full WordPress 3.2 Compatible. Maximun Free Memory Optimized!
 = 2011.0223.2011 =
 * Major Update [STABLE] Full WordPress 3.1 Compatible. Completely Disable Admin Bar Frontend Backend and Remove Code.
 = 2011.0123.0444 =
