@@ -16,6 +16,7 @@ Changes on future 3.3+ WordPress release: due to recent integration on core of A
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
  * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
@@ -46,6 +47,7 @@ Changes on future 3.3+ WordPress release: due to recent integration on core of A
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
  * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
