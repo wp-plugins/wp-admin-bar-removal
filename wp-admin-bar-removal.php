@@ -8,7 +8,7 @@ Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 3.1
 Tested up to: 3.2.2
-License: GPLv2 or later
+License: GPLv3
  * 
  * Development Release: Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL
  *
