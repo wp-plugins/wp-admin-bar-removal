@@ -69,8 +69,9 @@ No need to delete anything from the wp_option when removed!
 Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Changelog ==
-`All previous release, prior of latest stable, are on fact deprecated and no longer
-supported on this project: is very suggested upgrade to the latest build always!`
+`All previous release, prior of latest stable, are on fact deprecated,
+and no longer supported on this project: is very suggested upgrade to
+the latest build always! This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
 = 2011.0921.2011 =

@@ -28,7 +28,7 @@ License: GPLv2
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Part of Copyright © 2010-2011 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * Part of Copyright © 2010-2012 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
  * and a portion to their respective owners. Not For Resale or Business Purpose.
  */
 /**
