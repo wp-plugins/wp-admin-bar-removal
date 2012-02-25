@@ -8,15 +8,15 @@ Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 3.3
 Tested up to: 3.3
-License: GPLv3
+License: GPLv2
  * 
  * Stable Release: Version 2011 Build 0921 Revision 2011
  *
- *  Admin Bar Removal - WordPress PlugIn
+ * Admin Bar Removal - WordPress PlugIn
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
- *  as published by the Free Software Foundation; either [version 3](http://www.gnu.org/licenses/old-licenses/gpl-3.0.html)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  *  of the License, or (at your option) any later version.
  *
  *  This program is distributed in the hope that it will be useful,
@@ -28,7 +28,7 @@ License: GPLv3
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Part of Copyright © 2010-2012 belongs to sLaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * Part of Copyright © 2010-2011 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
  * and a portion to their respective owners. Not For Resale or Business Purpose.
  */
 /**
@@ -36,6 +36,8 @@ License: GPLv3
  * @subpackage WordPress PlugIn
  * @since 3.3.0
  * @version 2012.0000-BUGFIX.2012-DEVELOPMENTAL
+ * @author sLa
+ * @license GPLv2
  *
  * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
  */
