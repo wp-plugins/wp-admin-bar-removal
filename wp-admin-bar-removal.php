@@ -29,7 +29,7 @@ License: GPLv2
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
  * Part of Copyright © 2010-2012 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners. Not For Resale or Business Purpose.
+ * and a portion to their respective owners ® Patent Pending - Licensing Applyed - Not For Resale or Business Purpose.
  */
 /**
  * @package Admin Bar Removal
