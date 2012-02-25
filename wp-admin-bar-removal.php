@@ -2,17 +2,17 @@
 /*
 Plugin Name: Admin Bar Removal (3.1+ / 3.2+ only)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
-Description: Completely <code>Disable</code> new WordPress 3.1+ and 3.2+ (only) <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
+Description: Completely <code>Disable</code> new WordPress 3.1+ and 3.2+ (only) <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2011.0921.2011
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 3.1
 Tested up to: 3.2.2
-License: GPLv3
+License: GPLv2
  * 
  * Development Release: Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL
  *
- *  Admin Bar Removal - WordPress PlugIn
+ * Admin Bar Removal - WordPress PlugIn
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -28,7 +28,7 @@ License: GPLv3
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Part of Copyright © 2010-2011 belongs to sLaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * Part of Copyright © 2010-2011 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
  * and a portion to their respective owners. Not For Resale or Business Purpose.
  */
 /**
@@ -36,6 +36,8 @@ License: GPLv3
  * @subpackage WordPress PlugIn
  * @since 3.1.0
  * @version 2011.0921.2011
+ * @author sLa
+ * @license GPLv2
  *
  * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
  */
