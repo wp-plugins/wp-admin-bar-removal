@@ -1,10 +1,11 @@
 === WP Admin Bar Removal (completely disable) ===
 Contributors: sLa
-Donate link: http://donate.sla.lcsn.net/
+Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, backend, frontend, beta1, beta1-16884,
 Stable tag: 2010.1213.0340
 Requires at least: 3.1
 Tested up to: 3.1-beta1-16884
+License: GPLv2
 Completely Disable New WordPress 3.1 Admin Bar Backend and Frontend. Full 3.1-beta1-16884 and Network Multisite compatible work with Shared and VPS Hosting.
 == Description ==
 Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend.
@@ -40,13 +41,21 @@ Download WP Bar Removal
 If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-admin-bar-removal/
 == Frequently Asked Questions ==
 * License
-
- * This program is free software, but licensed work is under Creative Commons License;
-   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
-
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+    modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+    as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+    of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+* Disclaimer
+ * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
+ * Part of this license outlines requirements for derivative works, such as plugins or themes. Derivatives of WordPress code inherit the GPL license.
+ * There is some legal grey area regarding what is considered a derivative work, but we feel strongly that plugins and themes are derivative work and thus inherit the GPL license.
 = WP Bar Removal =
 Completely <code>Disable</code> New WordPress 3.1 <code>Admin Bar</code> Backend and Frontend. Work with Shared and VPS Hosting. Support WordPress 3.1-beta1-16884 and Network Multisite.
 
