@@ -9,7 +9,7 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 3.1
 Tested up to: 3.2.2
 License: GPLv2
- * 
+ *
  * Development Release: Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL
  *
  * Admin Bar Removal - WordPress PlugIn
@@ -21,15 +21,14 @@ License: GPLv2
  *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
  *  along with this program; if not, write to the Free Software
- *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Part of Copyright © 2010-2011 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed - Not For Resale or Business Purpose.
+ * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
  * @package Admin Bar Removal
