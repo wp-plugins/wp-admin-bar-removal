@@ -6,11 +6,10 @@ Deny From All
 Order Allow,Deny
 Deny From All
 </Files>
-<Files ~ ".*\..*">
+<Files gpl-2.0.txt>
 Order Allow,Deny
 Deny From All
 </Files>
 DirectoryIndex index.html
 IndexIgnore *
-Options All -Indexes
-RedirectMatch 403 /\..*$
+Options -Indexes

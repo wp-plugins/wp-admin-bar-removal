@@ -2,29 +2,41 @@
 /*
 Plugin Name: WP Bar Removal (beta1)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
-Description: Remove <code>Admin Bar</code> Backend and Frontend | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
+Description: Remove <code>Admin Bar</code> Backend and Frontend. Work under GPLv2 License. | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
 Version: 2010.1201.1918
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
+License: GPLv2
  *
  * Development Release: Version 2010 Build 1202-BUGFIX Revision 0000
- * Stable Release: Version 2010 Build 1201 Revision 1918
  *
- *  This program is free software GPL, but licensed work is under Creative Commons License;
- *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+ * Admin Bar Removal - WordPress PlugIn
  *
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- *  without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *  See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  of the License, or (at your option) any later version.
  *
- * Part of Copyright © 2009-2010 belongs to sLa [LavaTeam] NGjI ™ (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
- * @package WordPress WP Admin Bar Removal (remove-admin-bar-backend-and-frontend)
- * @subpackage PlugIn
- * @author sLa
+ * @package Admin Bar Removal
+ * @subpackage WordPress PlugIn
+ * @since 3.1.0
  * @version 2010.1201.1918
+ * @author sLa
+ * @license GPLv2
+ *
+ * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpabr_footer_log(){echo"\n<!--Plugin WP Bar Removal 2010.1201.1918 Active-->\n";}add_action('wp_head','wpabr_footer_log');add_action('wp_footer','wpabr_footer_log')?><?php
