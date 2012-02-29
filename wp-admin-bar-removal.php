@@ -2,31 +2,41 @@
 /*
 Plugin Name: Admin Bar Removal (RC3-17365)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
-Description: Completely <code>Disable</code> new WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
+Description: Completely <code>Disable</code> new WordPress 3.1 <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
 Version: 2011.0123.0444
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
+License: GPLv2
  *
- * Admin Bar Removal (completely-disable-admin-bar-frontend-backend-user-and-remove-code)
- * 
  * Development Release: Version 2011 Build 0126-BUGFIX Revision 0456
- * Stable Release: Version 2011 Build 0123 Revision 0444
  *
- *  This program is free software GPL, but licensed work is under Creative Commons License;
- *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+ * Admin Bar Removal - WordPress PlugIn
  *
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- *  without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *  See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  of the License, or (at your option) any later version.
  *
- * Part of Copyright © 2009-2011 belongs to sLaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed - Not For Resale
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
- * @package WordPress
- * @subpackage PlugIn
- * @author sLa
+ * @package Admin Bar Removal
+ * @subpackage WordPress PlugIn
+ * @since 3.1.0
  * @version 2011.0124.0000
+ * @author sLa
+ * @license GPLv2
+ *
+ * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
  */
 /*if ( version_compare($wp_version, "3.1", "<" ) ) {
 	exit("Admin Bar Removal requires build 3.1 or higher to run");
