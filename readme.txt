@@ -1,10 +1,11 @@
 === Admin Bar Removal (completely disable) ===
 Contributors: sLa
-Donate link: http://donate.sla.lcsn.net/
+Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, frontend, remove, backend, user, code, beta1, beta2, RC1, RC1-17163,
 Stable tag: 2010.1229.1656
 Requires at least: 3.1
 Tested up to: 3.1
+License: GPLv2
 Admin Bar Removal Completely Disable and Remove New WordPress 3.1 Frontend and Backend Code that now appears on the Public Side of WP 3.1 based blogs.
 == Description ==
 Admin Bar Removal Completely <code>Disable</code> and <code>Remove</code> New WordPress 3.1 <code>Admin Bar</code> Frontend and Backend Code that now appears on the Public Side of new WordPress 3.1 based blogs for minimal memory load. WARNING! Native control panel on/off preferences [Ticket #15829](http://core.trac.wordpress.org/ticket/15829) disable only Admin Bar Frontend Theme Integration but not completely remove code without minimizing memory load consumption ... Full 3.1-RC1-17163 and Network Multisite compatible work with Shared and VPS Hosting. Try also [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -134,15 +135,23 @@ Silent Update [MAINTENANCE] WP 3.1-beta1 Compatibility Upgrade.
 First Public Release (full WP 3.1-alpha compatible)
 == Licensing ==
 * License
-
- * This program is free software, but licensed work is under Creative Commons License;
-   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
-
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+    modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+    as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+    of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+* Disclaimer
+ * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
+ * Part of this license outlines requirements for derivative works, such as plugins or themes. Derivatives of WordPress code inherit the GPL license.
+ * There is some legal grey area regarding what is considered a derivative work, but we feel strongly that plugins and themes are derivative work and thus inherit the GPL license.
 == Donations ==
-[Donate](http://donate.sla.lcsn.net/)
+[Donate](http://lcsn.net/donate/)
 == Links ==
 Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
 == Support ==
