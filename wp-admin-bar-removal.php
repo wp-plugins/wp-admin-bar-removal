@@ -9,6 +9,7 @@ Author URI: http://wordpress.org/extend/plugins/profile/slangji/z
 Requires at least: 3.3
 Tested up to: 3.4
 License: GPLv2
+License URI: http://plugins.svn.wordpress.org/wp-admin-bar-removal/trunk/gpl-2.0.txt
  *
  * Major Stable Release: Version 2011 Build 0921 Revision 2011
  *
@@ -28,7 +29,7 @@ License: GPLv2
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji/) a.k.a. sLa (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
  * @package Admin Bar Removal
@@ -38,7 +39,7 @@ License: GPLv2
  * @author sLa
  * @license GPLv2
  *
- * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
+ * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();};function wpabr_footer_log(){echo"\n<!--Plugin Admin Bar Removal 2012.0000-BUGFIX.2012-DEVELOPMENTAL Active-->\n";};add_action('wp_head','wpabr_footer_log');add_action('wp_footer','wpabr_footer_log');show_admin_bar(false);function wpabr_ruppoabpc(){echo'<style type="text/css">.show-admin-bar{display:none}</style>';};add_action('admin_print_styles-profile.php','wpabr_ruppoabpc');add_filter('init','wpabr_init');function wpabr_init(){add_filter('show_admin_bar','__return_false' );};wp_deregister_script('admin-bar');wp_deregister_style('admin-bar');remove_filter('wp_head','wp_admin_bar');remove_filter('wp_footer','wp_admin_bar');remove_filter('admin_head','wp_admin_bar');remove_filter('admin_footer','wp_admin_bar');remove_filter('wp_head','wp_admin_bar_class');remove_filter('wp_footer','wp_admin_bar_class');remove_filter('admin_head','wp_admin_bar_class');remove_filter('admin_footer','wp_admin_bar_class');
 //
