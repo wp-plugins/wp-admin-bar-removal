@@ -14,9 +14,9 @@ Changes on future 3.3+ WordPress release: due to recent integration on core of A
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
  * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
@@ -45,9 +45,9 @@ Changes on future 3.3+ WordPress release: due to recent integration on core of A
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Total DeIndexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
  * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
