@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.3+ <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2012.0000-BUGFIX.2012-DEVELOPMENTAL
 Author: sLa
-Author URI: http://wordpress.org/extend/plugins/profile/sla/
+Author URI: http://wordpress.org/extend/plugins/profile/slangji/z
 Requires at least: 3.3
 Tested up to: 3.4
 License: GPLv2
@@ -28,7 +28,7 @@ License: GPLv2
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji/) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
  * @package Admin Bar Removal
