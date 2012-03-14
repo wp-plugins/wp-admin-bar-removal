@@ -4,7 +4,7 @@ Plugin Name: Admin Bar Removal (3.1+ / 3.2+ only)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.1+ and 3.2+ (only) <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2011.0921.2011
-Author: sLa
+Author: sLaNGjI
 Author URI: http://wordpress.org/extend/plugins/profile/slangji
 Requires at least: 3.1
 Tested up to: 3.2.2
@@ -36,7 +36,7 @@ License URI: http://plugins.svn.wordpress.org/wp-admin-bar-removal/trunk/gpl-2.0
  * @subpackage WordPress PlugIn
  * @since 3.1.0
  * @version 2011.0921.2011
- * @author sLa
+ * @author sLaNGjI
  * @license GPLv2
  *
  * Completely Disable Admin Bar Frontend, Backend, and Remove Code for minimal memory load. Work under GPLv2 License.
