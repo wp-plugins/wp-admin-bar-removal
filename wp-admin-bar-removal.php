@@ -1,10 +1,9 @@
-<?php
-/*
+<?php /*
 Plugin Name: Admin Bar Removal (3.1+ / 3.2+ / 3.3+ only)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.1+ / 3.2+ / 3.3+ (only) <code>Admin Bar</code> Frontend and Backend. Completely <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2012.0000-BUGFIX.2012-DEVELOPMENTAL
-Author: sLa
+Author: sLaNGjI
 Author URI: http://wordpress.org/extend/plugins/profile/slangji
 Requires at least: 3.1
 Tested up to: 3.3.2
@@ -30,18 +29,16 @@ License URI: http://plugins.svn.wordpress.org/wp-admin-bar-removal/trunk/gpl-2.0
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. sLa (slangji [at] gmail [dot] com)
- */
-/**
+ */ /**
  * @package Admin Bar Removal
  * @subpackage WordPress PlugIn
  * @since 3.1.0
  * @version 2012.0000-BUGFIX.2012-DEVELOPMENTAL
- * @author sLa
+ * @author sLaNGjI
  * @license GPLv2
  *
  * Completely Disable Admin Bar Frontend, Backend, and Remove Code for minimal memory load. Work under GPLv2 License.
- */
-if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();};
+ */if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();};
 function wpabr_footer_log(){echo"\n<!--Plugin Admin Bar Removal 2012.0000-BUGFIX.2012-DEVELOPMENTAL Active-->";};
 add_action('wp_head','wpabr_footer_log');
 add_action('wp_footer','wpabr_footer_log');
