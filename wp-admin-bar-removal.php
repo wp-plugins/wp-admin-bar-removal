@@ -28,7 +28,7 @@ License URI: http://plugins.svn.wordpress.org/wp-admin-bar-removal/trunk/gpl-2.0
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. sLa (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. [sLa](slangji [at] gmail [dot] com)
  */ /**
  * @package Admin Bar Removal
  * @subpackage WordPress PlugIn
