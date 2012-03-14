@@ -1,5 +1,5 @@
 === WP Bar Removal (alpha) Completely Disable Admin Bar Backend and Frontend ===
-Contributors: sLa
+Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 3.1, admin, backend, frontend, beta1, beta1-16732,
 Stable tag: 2010.1025.0356
@@ -125,8 +125,8 @@ Nothing for now ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/languages/wp-admin-bar-removal.pot)
 == Links ==
-Thanks to all keep the [Credit Link](http://sla.lcsn.net/) :D
+Thanks to all keep the [Credit Link](http://http://wordpress.org/extend/plugins/profile/slangji) :D
 == Updates ==
-[Update Link](http://svn.sla.lcsn.net/wp-admin-bar-removal/)
+[Update Link](http://svn.http://wordpress.org/extend/plugins/profile/slangjiwp-admin-bar-removal/)
 == Thanks ==
-Part of copyright belongs to sLa and a portion to their respective owners.
+:)

@@ -2,10 +2,10 @@
 /*
 Plugin Name: WP Admin Bar Removal (alpha)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-removal/
-Description: Remove <code>Admin Bar</code> Backend and Frontend. Work under GPLv2 License. | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
+Description: Remove <code>Admin Bar</code> Backend and Frontend. Work under GPLv2 License. | <a href="http://lcsn.net/donate//" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a>
 Version: 2010.1025.0356
-Author: sLa
-Author URI: http://wordpress.org/extend/plugins/profile/sla/
+Author: sLaNGjI
+Author URI: http://wordpress.org/extend/plugins/profile/slangji
 License: GPLv2
  *
  * Development Release: Version 2010 Build 1025-BUGFIX Revision 0356
@@ -26,14 +26,14 @@ License: GPLv2
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
+ * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. [sLa](slangji [at] gmail [dot] com)
  */
 /**
  * @package Admin Bar Removal
  * @subpackage WordPress PlugIn
  * @since 3.1.0
  * @version 2010.1025.0356
- * @author sLa
+ * @author sLaNGjI
  * @license GPLv2
  *
  * Completely Disable Admin Bar Frontend, Backend and Remove Code, for minimal memory load.
