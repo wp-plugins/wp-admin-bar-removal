@@ -1,5 +1,5 @@
 === Admin Bar Removal completely disable ===
-Contributors: sLa
+Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: wp, bar, removal, completely, disable, new, wordpress, 28px, filter, hide, personal, options, css, class, 3.1, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.2, 3.2.1, 3.2.2, admin, frontend, filters, remove, backend, user, code, plugin, api, reference
 Stable tag: 2011.0921.2011
