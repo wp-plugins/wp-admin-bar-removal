@@ -1,7 +1,7 @@
 === Admin Bar Removal completely disable ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
-Tags: wp, bar, removal, completely, disable, new, wordpress, 28px, filter, hide, personal, options, css, class, 3.1, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.2, 3.2.1, 3.2.2, admin, frontend, filters, remove, backend, user, code, plugin, api, reference
+Tags: wordpress, admin, bar, removal, hide, remove, disable, 28px, personal, options, backend, frontend
 Stable tag: 2011.0921.2011
 Requires at least: 3.1
 Tested up to: 3.2.2
@@ -14,9 +14,18 @@ Changes on future 3.3+ WordPress release: due to recent integration on core of A
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
- * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/)
+ * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+
+Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
+
+Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
