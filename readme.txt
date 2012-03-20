@@ -17,13 +17,13 @@ Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Mo
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
  * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
- * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
  * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
- * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
 
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
