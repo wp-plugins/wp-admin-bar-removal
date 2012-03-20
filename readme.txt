@@ -8,9 +8,14 @@ Tested up to: 3.2.2
 License: GPLv2
 Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ and 3.2+ (only) based blogs, plus Remove Code and free memory.
 == Description ==
+
+NEWS - Admin Bar Removal was upgraded soon to support WordPress 3.3+ changes, but if you maximizing removal experience use new [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) plugin. If you continue to use Admin Bar Removal on WordPress 3.3+ try to install the first add-on created by [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) to re-enable logout.
+
 Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Frontend and Backend that now appears on the Public Side and Admin Panel of WordPress 3.1+ and 3.2+ (only) based blogs, plus <code>Remove Code</code> for minimal memory load. Work under GPLv2 License. WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... Admin Bar Removal deregister admin-bar style and script remove wp-admin-bar filter and all others related files .js and .css to load and run on WordPress. Admin Bar Removal hide personal options on user profile. Admin Bar Removal minimize load memory on WordPress. Admin Bar Removal is automatic unique plugin file to put on mu-plugin directory on your wordPress installation for automatic activation since setup! Admin Bar Removal disable globally Admin Bar at max user levl (10) on one single step only. Full Network Multisite compatible work with Shared and VPS Hosting, plus both Per-Site and Per-Network (WordPress Multisite).
 
-Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. [Future 2012 release of this plugin](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip), compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.
+<del>Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. [Future 2012 release of this plugin](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip), compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.</del>
+
+Changes on 3.3+ and future 3.4+ WordPress release: due to recent integration on core of old [Admin Bar now renamed ToolBar](http://digwp.com/2012/01/goodbye-admin-bar-hello-toolbar/), i created the new plugin [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), based on Admin Bar Removal and [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), that work on WordPress 3.3+ / 3.4+ without loosing logout functionality, speedup dashboard, and maximizing free memory.
 
 Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
 
@@ -34,6 +39,8 @@ Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [s
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
  * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
  * [devlounge.net](http://www.devlounge.net/code/7-plug-ins-to-customize-wordpress-admin-bar/)
+
+Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) for the first add-on created for Admin Bar Removal to re-enable logout functionality!
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
@@ -53,18 +60,28 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 WARNING! Disable admin bar on user profile turn off only Theme Integration, but not completely remove code, without minimizing memory load consumption ... 
 
-Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. [Future 2012 release of this plugin](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip), compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.
+<del>Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. [Future 2012 release of this plugin](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip), compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.</del>
+
+Changes on 3.3+ and future 3.4+ WordPress release: due to recent integration on core of old Admin Bar, now renamed ToolBar, i created the new plugin [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), based on Admin Bar Removal and [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), that work on WordPress 3.3+ / 3.4+ without loosing logout functionality, speedup dashboard, and maximizing free memory. If you continue to use Admin Bar Removal on WordPress 3.3+ try to install the first add-on created by [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) to re-enable logout.
+
+Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
- * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
+ * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
+ * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
 
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
  * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
+ * [devlounge.net](http://www.devlounge.net/code/7-plug-ins-to-customize-wordpress-admin-bar/)
 
 `
 Nothing is written into space disk or VPS
