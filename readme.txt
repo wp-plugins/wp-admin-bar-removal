@@ -96,9 +96,10 @@ No need to delete anything from the wp_option when removed!
 Not need other actions except installing or uninstall it!
 Work with Shared and VPS Hosting`
 == Changelog ==
-`All previous release, prior of latest stable, are on fact deprecated,
-and no longer supported on this project: is very suggested upgrade to
-the latest build always! This plugin work under GPLv2 license.`
+`All previous release, prior of latest stable, are on fact
+deprecated, and no longer supported on this project:
+is very suggested upgrade to the latest build always!
+This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012 Build 0321-BUGFIX Revision 0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
 = 2012.0320.2012 =
@@ -107,6 +108,8 @@ the latest build always! This plugin work under GPLv2 license.`
  * First 2012 Major Release Certified
  * Based on [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Try [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) add-on to re-enable logout functionality!
+ * Try my latest new [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Plugin
+ * Try also my latest new [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) Plugin
  * NEW Faster Dasboard Speedup
  * NEW Maximun Free Memory
  * Full WordPress 3.3+ Support
