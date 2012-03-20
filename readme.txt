@@ -31,6 +31,7 @@ Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [s
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
  * [netchunks.com](http://www.netchunks.com/how-to-remove-wordpress-admin-bar/)
+ * [devlounge.net](http://www.devlounge.net/code/7-plug-ins-to-customize-wordpress-admin-bar/)
 == Installation ==
 = How to install Admin Bar Removal (manual) =
 1. Download Admin Bar Removal.
