@@ -83,7 +83,7 @@ Work with Shared and VPS Hosting`
 and no longer supported on this project: is very suggested upgrade to
 the latest build always! This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 0000-BUGFIX Revision 2012-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
+[Version 2012 Build 0320-BUGFIX Revision 0210-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
 = 2011.0921.2011 =
 * Major Update [CERTIFIED] Full WordPress 3.2+ Compatible.
  * Please update as soon possible!
