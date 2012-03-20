@@ -2,11 +2,11 @@
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: wordpress, admin, bar, removal, hide, remove, disable, 28px, personal, options, backend, frontend
-Stable tag: 2011.0921.2011
+Stable tag: 2012.0320.2012
 Requires at least: 3.1
-Tested up to: 3.2.2
+Tested up to: 3.3.2
 License: GPLv2
-Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ and 3.2+ (only) based blogs, plus Remove Code and free memory.
+Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ / 3.2+ / 3.3+ (only) based blogs, plus Remove Code and free memory.
 == Description ==
 
 NEWS - Admin Bar Removal was upgraded soon to support WordPress 3.3+ changes, but if you maximizing removal experience use new [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) plugin. If you continue to use Admin Bar Removal on WordPress 3.3+ try to install the first add-on created by [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) to re-enable logout.
@@ -100,7 +100,26 @@ Work with Shared and VPS Hosting`
 and no longer supported on this project: is very suggested upgrade to
 the latest build always! This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 0320-BUGFIX Revision 0210-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
+[Version 2012 Build 0321-BUGFIX Revision 0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
+= 2012.0320.2012 =
+* Major Update [CERTIFIED] Full WordPress 3.3+ Compatible.
+ * Please update as soon possible!
+ * First 2012 Major Release Certified
+ * Based on [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * Try [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) add-on to re-enable logout functionality!
+ * NEW Faster Dasboard Speedup
+ * NEW Maximun Free Memory
+ * Full WordPress 3.3+ Support
+ * Full Strict Security Rules Applied
+ * Code Cleanup for faster loading
+ * Only one unique php plugin file
+ * Less Plugin Memory Consumption (1KB or no more)
+ * Nothing is written into your space disk
+ * Nothing is written into your wp_option table
+ * Work with single and multisite installation of WordPress
+ * Work with Shared, VPS and Dedicated Hosting
+ * Work under GPLv2 license
+ * Bump Version 2012 Build 0320 Revision 2012
 = 2011.0921.2011 =
 * Major Update [CERTIFIED] Full WordPress 3.2+ Compatible.
  * Please update as soon possible!
@@ -207,6 +226,8 @@ the latest build always! This plugin work under GPLv2 license.`
  * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
+= 2012.0320.2012 =
+* Major Update [CERTIFIED] Full WordPress 3.3+ Compatible. Maximized Free Memory and Dasboard Speedup!
 = 2011.0921.2011 =
 * Major Update [CERTIFIED] Full WordPress 3.2 Compatible. Maximun Free Memory Optimized! Not Working on WordPress 3.3+
 = 2011.0223.2011 =
