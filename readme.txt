@@ -12,6 +12,8 @@ Admin Bar Removal Completely <code>Disable</code> new <code>Admin Bar</code> Fro
 
 Changes on future 3.3+ WordPress release: due to recent integration on core of Admin Bar and Admin Menu, this plugin, for now, work only with 3.1+ and 3.2+ build of WordPress. [Future 2012 release of this plugin](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip), compatible with 3.3+ build of WordPress, is on DEVELOPMENTAL phase with new approach for remove the Admin Bar from the WordPress core.
 
+Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
+
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
