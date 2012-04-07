@@ -1,15 +1,7 @@
-<Files .htaccess>
 Order Allow,Deny
-Deny From All
-</Files>
-<Files readme.txt>
-Order Allow,Deny
-Deny From All
-</Files>
-<Files gpl-2.0.txt>
-Order Allow,Deny
-Deny From All
-</Files>
+<FilesMatch "^index\.html$">
+Allow from all
+</FilesMatch>
 DirectoryIndex index.html
 IndexIgnore *
 Options -Indexes
