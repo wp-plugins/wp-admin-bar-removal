@@ -1,10 +1,10 @@
 === Admin Bar Removal completely disable ===
 Contributors: sLaNGjI
-Donate link: http://lcsn.net/donate/
+Donate link: http://slangji.wordpress.com/donate/
 Tags: wordpress, admin, bar, removal, hide, remove, disable, 28px, personal, options, backend, frontend
 Stable tag: 2012.0320.2012
 Requires at least: 3.1
-Tested up to: 3.3.2
+Tested up to: 3.3.3
 License: GPLv2
 Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ / 3.2+ / 3.3+ (only) based blogs plus Remove Code and free memory.
 == Description ==
