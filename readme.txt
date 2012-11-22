@@ -8,6 +8,7 @@ Tested up to: 3.3.3
 License: GPLv2
 Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ / 3.2+ / 3.3+ (only) based blogs plus Remove Code and free memory.
 == Description ==
+Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
 
 NEWS - Admin Bar Removal was upgraded to support WordPress 3.3+ changes, but if you need all in one removal, and keep logout functionality, use my new [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) plugin, for speedup dashboard and maximizing free memory with new removal approach. If you continue to use [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) on WordPress 3.3+ try to install the first add-on created by [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) to re-enable logout.
 
