@@ -1,14 +1,16 @@
 === Admin Bar Removal completely disable ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: wordpress, admin, bar, removal, hide, remove, disable, 28px, personal, options, backend, frontend
+Tags: admin,bar,removal,hide,remove,disable,28px,personal,options,backend,frontend,sLaNGjI
 Stable tag: 2012.0320.2012
 Requires at least: 3.1
 Tested up to: 3.3.3
 License: GPLv2
 Admin Bar Removal Completely Disable Frontend and Backend Menu on the WordPress 3.1+ / 3.2+ / 3.3+ (only) based blogs plus Remove Code and free memory.
 == Description ==
-Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
+Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
+
+[Find More on sLa Developer Page @ SoftPedia.com](http://webscripts.softpedia.com/author/sLa-1869786722.html)
 
 NEWS - Admin Bar Removal was upgraded to support WordPress 3.3+ changes, but if you need all in one removal, and keep logout functionality, use my new [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) plugin, for speedup dashboard and maximizing free memory with new removal approach. If you continue to use [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) on WordPress 3.3+ try to install the first add-on created by [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) to re-enable logout.
 
@@ -28,6 +30,7 @@ Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Mo
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
  * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/extend/plugins/wp-memory-db-indicator/)
 
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
