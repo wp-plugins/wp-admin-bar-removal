@@ -282,15 +282,3 @@ First Public Release (full WP 3.1-alpha compatible)
  * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
  * Part of this license outlines requirements for derivative works, such as plugins or themes. Derivatives of WordPress code inherit the GPL license.
  * There is some legal grey area regarding what is considered a derivative work, but we feel strongly that plugins and themes are derivative work and thus inherit the GPL license.
-== Links ==
-[Credit Link](http://wordpress.org/extend/plugins/profile/slangji)
-== Support ==
-[Support](http://wordpress.org/tags/wp-admin-bar-removal/)
-== Todo List ==
-Nothing for now ...
-== Translations ==
-[Translation Link](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/branches/languages/wp-admin-bar-removal.pot)
-== Updates ==
-[SVN Repo](http://plugins.svn.wordpress.org/wp-admin-bar-removal/) and [TRAC Browse](http://plugins.trac.wordpress.org/browser/wp-admin-bar-removal/)
-== Thanks ==
-Thanks to all keep the credit link or donate for this free work :D
