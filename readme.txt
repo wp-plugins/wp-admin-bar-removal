@@ -108,7 +108,7 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 0321-BUGFIX Revision 0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
+[Version 2013 Build 0620-BUGFIX Revision 0526-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip)
 = 2012.0320.2012 =
 * Major Update [CERTIFIED] Full WordPress 3.3+ Compatible.
  * Please update as soon possible!

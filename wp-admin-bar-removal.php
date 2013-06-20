@@ -11,7 +11,7 @@ Tested up to: 3.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
- * Development Release: Version 2012 Build 0321-BUGFIX Revision 0000-DEVELOPMENTAL
+ * Development Release: Version 2013 Build 0620-BUGFIX Revision 0526-DEVELOPMENTAL
  *
  * [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) WordPress PlugIn
  *
