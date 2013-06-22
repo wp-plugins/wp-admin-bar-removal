@@ -7,9 +7,9 @@ Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Remove WordPress 3.1+ Admin Bar and 3.3+ ToolBar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Options. Completely Disable!
+&#9733;&#9733;&#9733; Remove WP 3.1+ Admin Bar 3.3+ ToolBar Completely Disable Bump CB, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings.
 == Description ==
-Remove WordPress 3.1+ Admin Bar and 3.3+ ToolBar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Options.
+Remove WordPress 3.1+ Admin Bar and 3.3+ ToolBar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Settings.
 
 Completely Disable frontend Bump CB, Admin Menu Shaddow Effect, Admin Bar and ToolBar Pointer (ToolTips) User Personal Options Settings, without loosing Logout and Network MultiSite functionality!
 
@@ -66,6 +66,7 @@ Not need other actions except installing or uninstall it!
 `
 = Thanks =
 To [olyma](http://wordpress.org/plugins/one-click-logout-barless/) :)
+
 To [storkontheroof](http://profiles.wordpress.org/storkontheroof/) for Class Trick ;)
 
 * Tested and Reviewed by:
@@ -185,6 +186,9 @@ If you’re running WP 3.1+ or 3.2+ (not 3.3+), then show_admin_bar() will conti
 To be continued..
 
 Without a doubt things will continue to change, and it’ll be fun watching as WordPress continues to evolve, Toolbar and all :)
+
+= Add-On =
+[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on DashBoard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Screenshots ==
 = Plugin Screenshots =
 1. The 'old' WP Admin Bar: bigger, clunkier, and redundant ...
@@ -197,11 +201,65 @@ All previous release, prior of latest stable, are
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 `
+`
+√ Speedup Frontend Loading
+√ Speedup Backennd Loading
+√ Speedup DashBoard Loading
+√ Reduce Core Memory Consumption
+√ Reduce WordPress Memory Usage
+√ Free Unused Memory Load
+√ Less Plugin Memory Consumption.
+√ Full Strict Security Rules Applied.
+√ Handy Syntax Improvement.
+√ Reduce Code Bloat.
+√ Code Cleanup for faster loading.
+√ Only one unique PHP file.
+√ Supports PHP 4 and PHP 5.
+√ Ready to Single and Network Multisite Environment.
+√ Compatible with Shared, Dedicated, Cloud and VPS Hosting.
+√ Run on Hosting with high and low resources.
+√ The configuration of this plugin is Automattic!
+√ Nothing is written into space disk.
+√ Nothing is written into wp_option database table.
+`
+`
+No need to delete anything from hosting space when deactivate!
+No need to delete anything from hosting space when deleted!
+No need to delete anything from the database when deactivate!
+No need to delete anything from the database when deleted!
+No need to delete anything from the wp_option when deactivate!
+No need to delete anything from the wp_option when deleted!
+Not need other actions except installing or uninstall it!
+`
+= Rules =
+1. Compatible with: WordPress, bbPress, Buddypress.
+1. Unified Code to run with WordPress 3.1 to 3.6 or later
+1. All in One Disabler and Removal: Bump CB, Node, Shaddow, Pointer, Profile, Code.
+1. Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
+1. Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
+1. Meet detailed [Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) quality requirements.
 
-PRO @ $19.99 or $29.99 or $39.99 via PayPal or Google Checkout ?
+= Features =
+1. Remove WordPress 3.1+ (or later) Admin Bar
+1. Remove WordPress 3.3+ (or later) ToolBar
+1. Remove Frontend Bump CB
+1. Remove Frontend "28px gap" on top of Site Home Page
+1. Remove Backend DashBoard Admin Menu Shaddow Effect
+1. Remove Backend DashBoard Admin Bar/ToolBar Pointer (ToolTips)
+1. Remove Backend "28px gap" on top of Admin DashBoard for WP 3.3+ or later
+1. Remove User Personal Options Settings "Show Admin Bar/Toolbar"
+1. Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
+1. Add Header and Footer Log
+1. Show realtime datetime on top of DashBoard for WP 3.3+ or later
+
+= Thanks =
+To [olyma](http://wordpress.org/plugins/one-click-logout-barless/) :)
+
+To [storkontheroof](http://profiles.wordpress.org/storkontheroof/) for Class Trick ;)
 
 = Development Release =
 [Version 2013 Build 0622-BUGFIX Revision 0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-admin-bar-removal.zip) Code in Becoming!
+
 = 2013.0621.0361 =
 * Major Update [CERTIFIED] Remove WP 3.1+ to 3.6+ Admin Bar and ToolBar with new Unified Code
  * Please update as soon as possible!
@@ -351,9 +409,8 @@ PRO @ $19.99 or $29.99 or $39.99 via PayPal or Google Checkout ?
  * Nothing is written into your space disk.
  * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
-== Upgrade Notice ==
 = 2013.0621.0361 =
-* Major Update [CERTIFIED] Remove WP 3.1+ to 3.6+ Admin Bar and ToolBar with new Unified Code!
+* Major Update [CERTIFIED] Remove WordPress 3.1+ to 3.6+ Admin Bar, ToolBar, and more, with new Unified Code Approach, and Disable Code Completely!
 = 2012.0320.2012 =
 * Major Update [CERTIFIED] Full WordPress 3.3+ Compatible. Maximized Free Memory and DashBoard Speedup!
 = 2011.0921.2011 =
