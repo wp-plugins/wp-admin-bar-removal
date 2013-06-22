@@ -69,6 +69,8 @@ To [olyma](http://wordpress.org/plugins/one-click-logout-barless/) :)
 
 To [storkontheroof](http://profiles.wordpress.org/storkontheroof/) for Class Trick ;)
 
+The first and only Plugin (for now) that really work on WordPress 3.6+ / 3.5+ / 3.4+ / 3.3+ /3.2+ / 3.1+
+
 * Tested and Reviewed by:
  * [digwp.com](http://digwp.com/2011/04/admin-bar-tricks/#admin-bar-plugins)
  * [wpmods.com](http://www.wpmods.com/quick-tip-disable-wordpress-admin-taskbar/)
