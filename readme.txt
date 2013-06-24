@@ -165,7 +165,6 @@ To be continued..
 
 Without a doubt things will continue to change, and it’ll be fun watching as WordPress continues to evolve, ToolBar and all :)
 == Screenshots ==
-dashboard with wp admin bar removal is faster and user friendly and personal options is not needed if admin bar or toolbar is disadled and removed !
 1. "Old" Admin Bar: bigger, clunkier, and redundant ...
 2. "New" ToolBar: smaller, simpler, but redundant ...
 3. "Old" Admin Bar Personal Options: full control ...
@@ -173,8 +172,6 @@ dashboard with wp admin bar removal is faster and user friendly and personal opt
 5. Admin Bar and ToolBar with "One Click Logout Barless" add-on Plugin ...
 6. DashBoard with "WP ToolBar Removal": faster and user friendly ...
 7. Personal Options: not needed if Admin Bar or ToolBar is disadled and removed!
-== Add-On ==
-[WP Admin Bar Node Removal](http://wordpress.org/plugins/wp-toolbar-node-removal/), is the first add-on for [WP Admin Bar Removal](http://wordpress.org/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on DashBoard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only "WP Admin Bar Node Removal", and not "WP Admin Bar Removal", without loosing cache improvements on complex, and busy, WordPress installations. You can put "WP Admin Bar Node Removal", via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put "WP Admin Bar Removal", to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Changelog ==
 `
 All previous release, prior of latest stable, are
