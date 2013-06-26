@@ -1,12 +1,11 @@
-<?php 
+<?php
 
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: Disable and Remove Admin Bar and ToolBar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shaddow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+ Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU Style</a> indentation compatible. Meet detailed <a href="http://wordpress.org/plugins/about/guidelines/Plugin" title"This plugin meet detailed guideline quality requirements">Guidelines</a> quality requirements. | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show DashBoard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">ToolBar Removal?</a> |
-<a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestion">Contact</a> | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a>
+Description: disable and remove admin bar, toolbar code, on wordpress 3.1+ to 3.6+ frontend, backend, related user personal options settings, free mem, completely! for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding approach, without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
 Version: 2013.0621.0361
-Author: sLa NGjI's
+Author: sLaNGjI
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
 Tested up to: 3.6
@@ -17,9 +16,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * DEVELOPMENT release: Version 2013 Build 0624-BUGFIX Revision 0956-DEVELOPMENTAL
  *
- * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Disable and Remove WordPress Admin Bar and ToolBar Code Completely
+ * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Disable and Remove WordPress Admin Bar ToolBar and Code Completely
  *
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/slangjis) (email: <slangjis[at]gmail[dot]com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -36,7 +35,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * or write to the Free Software Foundation, Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * √ DISCLAIMER
+ * DISCLAIMER
  *
  * The license under which the WordPress software is released is the GPLv2 (or later) from the
  * Free Software Foundation. A copy of the license is included with every copy of WordPress.
@@ -51,85 +50,85 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
- * √ THERMS
+ * THERMS
  *
  * This uses (or it parts) code derived from
  *
  * wp-header-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
- *
- * wp-admin-bar-removal.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2009-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * wp-admin-bar-removal-node-addon.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2010-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
- * toolbar-removal-completely-disable.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2011-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
- *
- * one-click-logout-barless.php by olyma <rackofpower.com>
+ * one-click-logout-barless.php by olyma <olyma[at]rackofpower[dot]com>)
  * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma[at]rackofpower[dot]com>)
  *
+ * toolbar-removal-completely-disable.php by sLa <slangji[at]gmail[dot]com>
+ * Copyright (C) 2011-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ *
+ * wp-toolbar-removal.php by sLa <slangji[at]gmail[dot]com>
+ * Copyright (C) 2012-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ *
  * wp-toolbar-removal-node-addon.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2012-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2012-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
  * wp-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * sLa2sLaNGjIs.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2009-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma[at]rackofpower[dot]com>)
  *
- * √ VIOLATIONS
+ * VIOLATIONS
  *
  * [Violations of the GNU Licenses](http://www.gnu.org/licenses/gpl-violation.en.html)
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
- * √ GUIDELINES
+ * GUIDELINES
  *
  * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
- * √ CODING
+ * CODING
  *
  * This software implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
- * √ VALIDATION
+ * VALIDATION
  *
  * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
- * √ THANKS
- * To [olyma](http://wordpress.org/plugins/one-click-logout-barless/)
- * To [storkontheroof](http://profiles.wordpress.org/storkontheroof/)
+ * THANKS
+ * To [olyma]()
+ * To [storkontheroof]()
  */
 
-	/**
-	 * @package WP Admin Bar Removal (State of The Art Plugin ?)
-	 * @subpackage WordPress PlugIn
-	 * @description Disable and Remove WordPress Admin Bar and ToolBar Code Completely
-	 * @since 3.1.0
-	 * @tested 3.6.0
-	 * @version 2013.0621.0361
-	 * @status STABLE release
-	 * @author sLa NGjI's
-	 * @license GPLv2 or later
-	 * @indentation GNU style coding standard
-	 * @keybit 
-	 * @keysum 
-	 * @keytag 74be16979710d4c4e7c6647856088456
-	 */
+/**
+ * @package WP Admin Bar Removal
+ * @subpackage WordPress PlugIn
+ * @description Disable and Remove WordPress Admin Bar ToolBar and Code Completely
+ * @since 3.1.0
+ * @tested 3.6.0
+ * @version 2013.0621.0361
+ * @status STABLE release
+ * @author sLaNGjI
+ * @license GPLv2 or later
+ * @indentation GNU style coding standard
+ * @keybit 
+ * @keysum 
+ * @keytag 74be16979710d4c4e7c6647856088456
+ */
 
 	if ( !function_exists( 'add_action' ) )
 		{
@@ -151,10 +150,14 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	function wpabr_rbams()
 		{
 			echo "\n\n<!--Start Admin Bar Removal Code-->\n\n";
-			echo '<style type="text/css">#adminmenuShaddow,#adminmenuback{background-image:none}</style>';
+			echo '<style type="text/css">#adminmenushadow,#adminmenuback{background-image:none}</style>';
 			echo "\n\n<!--End Admin Bar Removal Code-->\n\n";
 		}
-	add_action( 'admin_head', 'wpabr_rbams' );
+
+	if ( $wp_version >= 3.2 )
+		{
+			add_action( 'admin_head', 'wpabr_rbams' );
+		}
 
 	function wpabr_rbf28px()
 		{
@@ -218,49 +221,16 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 			echo "\n<!--End Admin Bar Removal Code-->\n\n";
 		}
 
-	global $wp_version;
-
 	if ( $wp_version >= 3.3 )
 		{
 			add_action( 'in_admin_header', 'wpabr_abtlh' );
+			add_filter( 'show_wp_pointer_admin_bar', '__return_false' );
 		}
-
-	function wpabr_rfbcb()
-		{
-			if ( has_filter( 'wp_head', '_admin_bar_bump_cb' ) )
-				{
-					remove_filter( 'wp_head', '_admin_bar_bump_cb' );
-				}
-		}
-	add_filter( 'wp_head', 'wpabr_rfbcb', 1 );
-
-	function wpabr_rfmp()
-		{
-			echo "\n\n<!--Start Admin Bar Removal Code-->\n\n";
-			echo '<style type="text/css" media="print">#wpadminbar{display:none}</style>';
-			echo "\n\n<!--End Admin Bar Removal Code-->\n\n";
-		}
-	add_action( 'wp_head', 'wpabr_rfmp', 1  );
 
 	function wp_admin_bar_init()
 		{
-			global $wp_version;
-
-			if ( $wp_version >= 3.1 )
-				{
-					global $wp_version;
-
-					if ( $wp_version < 3.3 )
-						{
-							add_filter( 'show_admin_bar', '__return_false' );
-						}
-				}
+			add_filter( 'show_admin_bar', '__return_false' );
 			add_filter( 'wp_admin_bar_class', '__return_false' );
-			add_filter( 'wp_admin_bar_css', '__return_false' );
-			add_filter( 'wp_admin_bar_js', '__return_false' );
-			add_filter( 'wp_admin_bar_render', '__return_false' );
-			add_filter( 'wp_admin_bar_ajax_render', '__return_false' );
-			add_filter( 'show_wp_pointer_admin_bar', '__return_false' );
 		}
 	add_filter( 'init', 'wp_admin_bar_init', 9 );
 
@@ -271,8 +241,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 			echo "\n\n<!--End Admin Bar Removal Code-->\n\n";
 		}
 	add_action( 'admin_print_styles-profile.php', 'wpabr_ruppoabpc' );
-	remove_action( 'personal_options', '_admin_bar_preferences' );
-	remove_filter( 'personal_options', '_admin_bar_preferences' );
 
 	$wp_scripts = new WP_Scripts();
 	wp_deregister_script( 'admin-bar' );
@@ -339,36 +307,32 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_action( 'admin_footer', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render', 1000 );
 
-	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
-	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
+	remove_action( 'admin_footer', 'wp_admin_bar_render' );
+	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
 
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 
-	remove_action( 'admin_footer', 'wp_admin_bar_render' );
-	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
+	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
+	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 
 	function wpabr_hfl()
 		{
 			echo "\n<!--Plugin Admin Bar Removal 2013.0621.0361 Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--This Site is Optimized to Speedup DashBoard and Minimize Memory Load Consumption";
+			echo "\n<!--This Site is Optimized to Speedup DashBoard and Minimize Memory Load Consumption with Disabled";
 
 			global $wp_version;
 
 			if ( $wp_version >= 3.3 )
 				{
-					echo " with ToolBar Disabled";
+					echo " ToolBar";
 				}
-
-			global $wp_version;
 
 			if ( $wp_version >= 3.1 )
 				{
-					global $wp_version;
-
 					if ( $wp_version < 3.3 )
 						{
-							echo " with Admin Bar Disabled";
+							echo " Admin Bar";
 						}
 				}
 
