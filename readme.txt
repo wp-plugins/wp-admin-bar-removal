@@ -1,7 +1,7 @@
 === Admin Bar Removal - Disable ToolBar Remove ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, backend, bumpcb, dashboard, disable, frontend, pointer, remove, shadow, sla, slangji, toolbar
+Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, toolbar, tool-bar
 Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6
