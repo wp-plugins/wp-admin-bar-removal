@@ -2,7 +2,7 @@
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: adminbar, backend, bumpcb, dashboard, disable, frontend, pointer, remove, shadow, sla, slangji, toolbar
-Stable tag: 2013.0624.0361
+Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
