@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Disable and Remove WordPress Admin Bar ToolBar and Code
+ * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Disable WordPress Admin Bar and ToolBar and Remove Code
  *
  * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
@@ -107,27 +107,26 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * THANKS
- * To [olyma]()
- * To [storkontheroof]()
- * TO [Focus3D]()
+ *
+ * To: olyma, storkontheroof, focus3d, and all others that send me bugfix, suggestions or triks :)
  */
 
-/**
- * @package WP Admin Bar Removal
- * @subpackage WordPress PlugIn
- * @description Disable and Remove WordPress Admin Bar ToolBar and Code
- * @since 3.1.0
- * @tested 3.6.0
- * @version 2013.0624.0361
- * @status STABLE (trunk) release
- * @development Code in Becoming!
- * @author sLaNGjI
- * @license GPLv2 or later
- * @indentation GNU style coding standard
- * @keybit 
- * @keysum 
- * @keytag 74be16979710d4c4e7c6647856088456
- */
+	/**
+	 * @package WP Admin Bar Removal
+	 * @subpackage WordPress PlugIn
+	 * @description Disable WordPress Admin Bar and ToolBar and Remove Code
+	 * @since 3.1.0
+	 * @tested 3.6.0
+	 * @version 2013.0624.0361
+	 * @status STABLE (trunk) release
+	 * @development Code in Becoming!
+	 * @author sLaNGjI
+	 * @license GPLv2 or later
+	 * @indentation GNU style coding standard
+	 * @keybit 
+	 * @keysum 
+	 * @keytag 74be16979710d4c4e7c6647856088456
+	 */
 
 	if ( !function_exists( 'add_action' ) )
 		{
@@ -261,7 +260,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	remove_action( 'init', 'wp_admin_bar_init' );
 	remove_filter( 'init', 'wp_admin_bar_init' );
-
 	remove_action( 'wp_head', 'wp_admin_bar' );
 	remove_filter( 'wp_head', 'wp_admin_bar' );
 	remove_action( 'wp_footer', 'wp_admin_bar' );
@@ -270,7 +268,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar' );
 	remove_action( 'admin_footer', 'wp_admin_bar' );
 	remove_filter( 'admin_footer', 'wp_admin_bar' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_class' );
 	remove_filter( 'wp_head', 'wp_admin_bar_class' );
 	remove_action( 'wp_footer', 'wp_admin_bar_class' );
@@ -279,8 +276,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_class' );
 	remove_action( 'admin_footer', 'wp_admin_bar_class' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_class' );
-	remove_action( 'in_admin_header', 'newheader1' );
-	remove_filter( 'in_admin_header', 'newheader1' );
 	remove_action( 'wp_head', 'wp_admin_bar_css' );
 	remove_filter( 'wp_head', 'wp_admin_bar_css' );
 	remove_action( 'wp_head', 'wp_admin_bar_dev_css' );
@@ -297,7 +292,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_css' );
 	remove_action( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
-
 	remove_action( 'wp_footer', 'wp_admin_bar_js' );
 	remove_filter( 'wp_footer', 'wp_admin_bar_js' );
 	remove_action( 'wp_footer', 'wp_admin_bar_dev_js' );
@@ -306,10 +300,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_footer', 'wp_admin_bar_js' );
 	remove_action( 'admin_footer', 'wp_admin_bar_dev_js' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_dev_js' );
-
 	remove_action( 'locale', 'wp_admin_bar_lang' );
 	remove_filter( 'locale', 'wp_admin_bar_lang' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'wp_footer', 'wp_admin_bar_render', 1000 );
@@ -318,20 +310,17 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'admin_footer', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render', 1000 );
-
 	remove_action( 'admin_footer', 'wp_admin_bar_render' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 
 	function wpabr_hfl()
 		{
 			echo "\n<!--Plugin Admin Bar Removal 2013.0624.0361 Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--This Site is Optimized to Speed UP Admin Control Panel and Minimize Memory Consumption with Disabled";
+			echo "\n<!--Site Optimized to Speed UP Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
 
