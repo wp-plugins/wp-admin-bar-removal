@@ -1,9 +1,8 @@
 <?php
-
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable and remove admin bar, toolbar code, on wordpress 3.1+ to 3.6+ frontend, backend, related user personal options settings, free mem, completely! for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding approach, without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
+Description: disable admin bar and toolbar on wordpress 3.1+ to 3.6+ for all users and completely remove code on frontend, backend, user personal options settings, for Minimize Memory Consumption, and Speed UP Loading of the Admin Control Panel, with New Unified Coding approach and without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2013.0624.0361
 Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
@@ -167,7 +166,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 		}
 	add_action( 'admin_print_styles', 'wpabr_rbf28px', 21 );
 
-	function wpabr_abtlh()
+	function wpabr_ablh()
 		{
 			echo "\n\n<!--Start Admin Bar Removal Code-->\n\n";
 ?>
@@ -235,7 +234,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	if ( $wp_version >= 3.3 )
 		{
-			add_action( 'in_admin_header', 'wpabr_abtlh' );
+			add_action( 'in_admin_header', 'wpabr_ablh' );
 			add_filter( 'show_wp_pointer_admin_bar', '__return_false' );
 		}
 
@@ -280,7 +279,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_class' );
 	remove_action( 'admin_footer', 'wp_admin_bar_class' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_class' );
-
+	remove_action( 'in_admin_header', 'newheader1' );
+	remove_filter( 'in_admin_header', 'newheader1' );
 	remove_action( 'wp_head', 'wp_admin_bar_css' );
 	remove_filter( 'wp_head', 'wp_admin_bar_css' );
 	remove_action( 'wp_head', 'wp_admin_bar_dev_css' );
@@ -331,7 +331,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	function wpabr_hfl()
 		{
 			echo "\n<!--Plugin Admin Bar Removal 2013.0624.0361 Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--This Site is Optimized to Speedup DashBoard and Minimize Memory Load Consumption with Disabled";
+			echo "\n<!--This Site is Optimized to Speed UP Admin Control Panel and Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
 
@@ -352,5 +352,4 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 		}
 	add_action( 'wp_head', 'wpabr_hfl' );
 	add_action( 'wp_footer', 'wpabr_hfl' );
-
 ?>
