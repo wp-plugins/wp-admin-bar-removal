@@ -1,15 +1,15 @@
 === Admin Bar Removal - Disable Remove ToolBar ===
-Contributors: sLaNGjI
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, tool-bar, toolbar
+Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangjis, tool-bar, toolbar
 Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-disable wordpress admin bar toolbar for all user completely remove frontend backend code Minimize Memory Consumption Speed UP Loading of Control Panel
+disable wordpress admin bar toolbar for all user completely remove frontend backend code minimize memory consumption speed up loading of control panel
 == Description ==
-disable wordpress admin bar toolbar for all user completely remove frontend backend code Minimize Memory Consumption Speed UP Loading of Control Panel
+disable wordpress admin bar toolbar for all user completely remove frontend backend code minimize memory consumption speed up loading of control panel
 
 Disable Admin Bar and ToolBar, from Home Page and DashBoard, on WordPress 3.1+ to 3.6+ for all Users, logged in and logged out and Completely Remove Related Code on Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
 
