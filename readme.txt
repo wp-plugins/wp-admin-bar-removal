@@ -1,4 +1,4 @@
-=== Remove Admin Bar Removal ===
+=== Remove Disable Admin Bar Removal ===
 Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
 Tags: adminbar, admin-bar, disable-admin-bar, disable-wordpress-admin-bar, disable-toolbar, disable-wordpress-toolbar, remove-admin-bar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangjis, toolbar
