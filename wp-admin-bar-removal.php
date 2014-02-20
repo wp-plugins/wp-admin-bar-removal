@@ -2,12 +2,12 @@
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 3.6+ for all users and completely remove code on frontend, backend, user personal options settings, for Minimize Memory Consumption, and Speed UP Loading of the Admin Control Panel, with New Unified Coding approach and without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for Minimize Memory Consumption, and Speed UP Loading of the Admin Control Panel, with New Unified Coding approach and without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2013.0624.0361
-Author: slangjis
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.6
+Tested up to: 3.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
@@ -116,15 +116,13 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @subpackage WordPress PlugIn
 	 * @description Disable WordPress Admin Bar and ToolBar and Remove Code
 	 * @since 3.1.0
-	 * @tested 3.6.0
+	 * @tested 3.7.2
 	 * @version 2013.0624.0361
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
-	 * @keybit 
-	 * @keysum 
 	 * @keytag 74be16979710d4c4e7c6647856088456
 	 */
 
@@ -137,6 +135,22 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 			header( 'Connection: Close' );
 				exit();
 		}
+
+	function wpabr_1st()
+		{
+			$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
+
+			if ( $plugins = get_option( 'active_plugins' ) )
+				{
+					if ( $key = array_search( $path, $plugins ) )
+						{
+							array_splice( $plugins, $key, 1 );
+							array_unshift( $plugins, $path );
+							update_option( 'active_plugins', $plugins );
+						}
+				}
+		}
+	add_action( "activated_plugin", "wpabr_1st" );
 
 	global $wp_version;
 
@@ -317,10 +331,22 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 
+	function wpabr_rml( $links, $file )
+		{
+			if ( $file == plugin_basename( __FILE__ ) )
+				{
+					$links[] = '<a href="http://slangji.wordpress.com/donate/">Donate</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/contact/">Contact</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/plugins/">Others plugins</a>';
+				}
+			return $links;
+		}
+	add_filter( 'plugin_row_meta', 'wpabr_rml', 10, 2 );
+
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin Admin Bar Removal 2013.0624.0361 Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--Site Optimized to Speed UP Control Panel Minimize Memory Consumption with Disabled";
+			echo "\n<!--Plugin Admin Bar Removal 2013.0624.0361 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
 
