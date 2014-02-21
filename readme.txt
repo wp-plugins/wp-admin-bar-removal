@@ -19,7 +19,7 @@ Please: migrate to it A.S.A.P.
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress.
-1. Unified Coding to run with WordPress 3.1+ to 3.7+ or later.
+1. Unified Coding to run with WordPress 3.1+ to 3.7+
 1. Ready to Single and Network Multisite Environment.
 1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code.
 1. The configuration of this plugin is Automattic!
