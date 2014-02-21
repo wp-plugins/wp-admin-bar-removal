@@ -13,6 +13,11 @@ disable wordpress admin bar toolbar for all user remove frontend backend code mi
 
 Disable Admin Bar and ToolBar, from Home Page and DashBoard, on WordPress 3.1+ to 3.7+ for all Users, logged in and logged out and Completely Remove Related Code on Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
 
+Is planned [WP Admin Bar Removal](http://slangji.wordpress.com/wp-admin-bar-removal/) compatibility update for WordPress 3.8+ and 3.9+ ?
+No!
+The only plugin that is updated for compatibility with WordPress 3.8+ and 3.9+ is [WP ToolBar Removal](http://slangji.wordpress.com/wp-toolbar-removal/)
+Please: migrate to it A.S.A.P.
+
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress.
