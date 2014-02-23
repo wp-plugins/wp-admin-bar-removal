@@ -136,21 +136,40 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 				exit();
 		}
 
-	function wpabr_1st()
+	function wpabr_1st_1_dev()
 		{
 			$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
 
+			// If $key 0 it's the first plugin already, no need to continue
 			if ( $plugins = get_option( 'active_plugins' ) )
 				{
 					if ( $key = array_search( $path, $plugins ) )
 						{
-							array_splice( $plugins, $key, 1 );
+							array_splice( $plugins, $key, 1 ); // with 0 failed plugin deactivation?
 							array_unshift( $plugins, $path );
 							update_option( 'active_plugins', $plugins );
 						}
 				}
 		}
-	add_action( "activated_plugin", "wpabr_1st" );
+	add_action( "activated_plugin", "wpabr_1st_1_dev" );
+
+	function wpabr_1st_2_dev()
+		{
+			// Ensure path to this file is via main wp plugin path
+			$wp_path_to_this_file = preg_replace( '/(.*)plugins\/(.*)$/', WP_PLUGIN_DIR . "/$2", __FILE__ );
+			$this_plugin = plugin_basename( trim( $wp_path_to_this_file ) );
+			$active_plugins = get_option( 'active_plugins' );
+			$this_plugin_key = array_search( $this_plugin, $active_plugins );
+
+			// If it's 0 it's the first plugin already, no need to continue
+			if ( $this_plugin_key ) 
+				{
+					array_splice( $active_plugins, $this_plugin_key, 1 ); // with 0 failed plugin deactivation?
+					array_unshift( $active_plugins, $this_plugin );
+					update_option( 'active_plugins', $active_plugins );
+				}
+		}
+	add_action( "activated_plugin", "wpabr_1st_2_dev" );
 
 	global $wp_version;
 
