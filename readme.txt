@@ -176,7 +176,7 @@ Developmental Code in Becoming!
 = 2013.0624.0361 =
 * Major Update [CERTIFIED] Remove Admin Bar and ToolBar with New Unified Coding!
  * Please update as soon as possible!
- * NEW Unified Coding to run with WordPress 3.1+ to 3.7+ or later
+ * NEW Unified Coding to run with WordPress 3.1+ to 3.7+
  * NEW Show i18n realtime datetime on top of DashBoard for WP 3.3+ or later
  * NEW Disable User Personal Options Settings "Show Admin Bar/ToolBar"
  * NEW Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
