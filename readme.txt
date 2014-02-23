@@ -41,7 +41,7 @@ Features:
 1. Remove User Personal Options Settings "Show Admin Bar/ToolBar"
 1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
 1. Hide Admin Page Title Icons in the Backend DashBoard
-1. Disable Admin Menu Hoverintent
+1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
 1. Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
 1. Show realtime datetime on top of DashBoard for WP 3.3+ or later
