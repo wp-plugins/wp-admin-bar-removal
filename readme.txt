@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel
 == Description ==
-disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel removal plugin clean dashboard menu for all users subscribers on backend and frontend
+disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel removal plugin clean DashBoard menu for all users subscribers on backend and frontend
 
 Disable WP Admin Bar and ToolBar Removal from Home Page and DashBoard Clean Remove Code for all Users logged in and logged out Completely on WordPress 3.1+ to 3.7+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
 
@@ -40,6 +40,8 @@ Features:
 1. Remove Backend "28px gap" on top of Admin DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/ToolBar"
 1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
+1. Hide Admin Page Title Icons in the Backend DashBoard
+1. Disable Admin Menu Hoverintent
 1. Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
 1. Show realtime datetime on top of DashBoard for WP 3.3+ or later
@@ -83,7 +85,7 @@ Thanks to olyma, storkontheroof, focus3d
  * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/plugins/wp-memory-db-indicator/) (new)
  * [Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
 == Installation ==
-before install this plugin, is reccomended, but is not needed, to unflag -> personal options -> show admin bar/toolbar -> when viewing site/on dashboard
+before install this plugin, is reccomended, but is not needed, to unflag -> personal options -> show admin bar/toolbar -> when viewing site/on DashBoard
 = How to install (manual) =
 1. Download
 2. Upload it into your plugins directory from Plugin Add Feature or FTP
@@ -325,8 +327,8 @@ Developmental Code in Becoming!
  * Nothing is written into your database or wp_option table.
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
-= 2012.1124.0372 =
-Major Update [CERTIFIED] Update code (3.1+ ~ 3.7+) for max speedup of Dashboard and Admin Menu: for compatibility with WordPress 3.8+ and 3.9+ please migrate to "WP ToolBar Removal" plugin!
+= 2013.1124.0372 =
+Major Update [CERTIFIED] Update code (3.1+ ~ 3.7+) for max speedup of DashBoard and Admin Menu: for compatibility with WordPress 3.8+ and 3.9+ please migrate to "WP ToolBar Removal" plugin!
 = 2013.0624.0361 =
 Major Update [CERTIFIED] Disable and Remove Admin Bar and ToolBar Code Completely on WordPress 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
 = 2012.0320.2012 =
