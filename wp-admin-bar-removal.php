@@ -1,32 +1,24 @@
 <?php
 /*
 Plugin Name: WP Admin Bar Removal
-Plugin URI: //slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 4.1+ for all users and completely remove code on frontend, backend, user personal options settings, for Minimize Memory Consumption, and Speed UP Loading of the Admin Control Panel, with New Unified Coding approach and without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2014.1210.0410-DEV
+Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
+Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for Minimize Memory Consumption, and Speed UP Loading of the Admin Control Panel, with New Unified Coding approach and without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Version: 2013.0624.0361
 Author: sLa NGjI's
-Author URI: //slangji.wordpress.com/
+Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 4.1
-License: GPLv2 or later (license.txt)
-License URI: //www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 3.7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
-Indentation URI: //www.gnu.org/prep/standards/standards.html
-Humans: We are the Humans behind (humans.txt)
-Humans URI: //humanstxt.org/Standard.html
+Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
-Network: true
+ * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Disable WordPress Admin Bar and ToolBar and Remove Code
  *
- * LICENSING (license.txt)
- *
- * [WP Admin Bar Removal](//wordpress.org/plugins/wp-admin-bar-removal/)
- *
- * Disable WordPress Admin Bar and Toolbar and Remove Code
- *
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
- * modify it under the terms of the [GNU General Public License](//wordpress.org/about/gpl/)
+ * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
  *
@@ -36,16 +28,11 @@ Network: true
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program; if not, see [GNU General Public Licenses](//www.gnu.org/licenses/),
+ * along with this program; if not, see [GNU General Public Licenses](http://www.gnu.org/licenses/),
  * or write to the Free Software Foundation, Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301, USA.
  *
  * DISCLAIMER
- *
- * This program is distributed "AS IS" in the hope that it will be useful, but:
- * without any warranty of function, without any warranty of merchantability,
- * without any fitness for a particular or specific purpose, without any type
- * of future assistance from your own author or other authors.
  *
  * The license under which the WordPress software is released is the GPLv2 (or later) from the
  * Free Software Foundation. A copy of the license is included with every copy of WordPress.
@@ -56,7 +43,7 @@ Network: true
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
@@ -65,102 +52,72 @@ Network: true
  * This uses (or it parts) code derived from
  *
  * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- *
- * wp-admin-bar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-admin-bar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * global-admin-bar-hide-or-remove.php by Donald J. Fischer (email: <dfischer [at] fischercreativemedia [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
- *
- * global-hide-admin-tool-bar.php
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
- *
- * one-click-logout.php by olyma <olyma [at] rackofpower [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
- *
- * one-click-logout-barless.php by olyma <olyma [at] rackofpower [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>))
+ * one-click-logout-barless.php by olyma <olyma [at] rack of power [dot] com>)
+ * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma [at] rack of power [dot] com>)
  *
  * toolbar-removal-completely-disable.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2011-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-toolbar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2012-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-toolbar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2012-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
  * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective other authors:
+ * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
- * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
- * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma [at] rack of power [dot] com>)
  *
  * VIOLATIONS
  *
- * [Violations of the GNU Licenses](//www.gnu.org/licenses/gpl-violation.en.html)
+ * [Violations of the GNU Licenses](http://www.gnu.org/licenses/gpl-violation.en.html)
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
  *
- * This software implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ * This software implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * VALIDATION
  *
- * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
- * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
- *
- * HUMANS (humans.txt)
- *
- * We are the Humans behind this project [humanstxt.org](//humanstxt.org/Standard.html)
- *
- * This software meet detailed humans rights belongs to your own author and to their respective other authors.
+ * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * THANKS
  *
- * [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523)
- * [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
- *
- * and all other that send me bugfix, suggestions or triks :)
- *
- * TODOLIST
- *
+ * To: olyma, storkontheroof, focus3d, and all others that send me bugfix, suggestions or triks :)
  */
 
 	/**
 	 * @package WP Admin Bar Removal
 	 * @subpackage WordPress PlugIn
-	 * @description Disable WordPress Admin Bar and Toolbar and Remove Code
+	 * @description Disable WordPress Admin Bar and ToolBar and Remove Code
 	 * @since 3.1.0
-	 * @tested 4.0.0-alpha
-	 * @version 2014.1210.0410-DEV
+	 * @tested 3.7.2
+	 * @version 2013.0624.0361
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -179,30 +136,24 @@ Network: true
 				exit();
 		}
 
-	global $wp_version;
-
-	if ( $wp_version < 3.1 )
-		{
-			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
-		}
-
-	function wpabr_1st()
+	function wpabr_1st_1_dev()
 		{
 			$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
 
+			// If $key 0 it's the first plugin already, no need to continue
 			if ( $plugins = get_option( 'active_plugins' ) )
 				{
 					if ( $key = array_search( $path, $plugins ) )
 						{
-							array_splice( $plugins, $key, 1 );
+							array_splice( $plugins, $key, 1 ); // with 0 failed plugin deactivation?
 							array_unshift( $plugins, $path );
 							update_option( 'active_plugins', $plugins );
 						}
 				}
 		}
-	add_action( "activated_plugin", "wpabr_1st" );
+	add_action( "activated_plugin", "wpabr_1st_1_dev" );
 
-	function wpabr_2nd()
+	function wpabr_1st_2_dev()
 		{
 			// Ensure path to this file is via main wp plugin path
 			$wp_path_to_this_file = preg_replace( '/(.*)plugins\/(.*)$/', WP_PLUGIN_DIR . "/$2", __FILE__ );
@@ -210,14 +161,22 @@ Network: true
 			$active_plugins = get_option( 'active_plugins' );
 			$this_plugin_key = array_search( $this_plugin, $active_plugins );
 
-			if ( $this_plugin_key ) // If it's 0 it's the first plugin already, no need to continue
+			// If it's 0 it's the first plugin already, no need to continue
+			if ( $this_plugin_key ) 
 				{
-					array_splice( $active_plugins, $this_plugin_key, 0 );
+					array_splice( $active_plugins, $this_plugin_key, 1 ); // with 0 failed plugin deactivation?
 					array_unshift( $active_plugins, $this_plugin );
 					update_option( 'active_plugins', $active_plugins );
 				}
 		}
-	//add_action( "activated_plugin", "wpabr_2nd" );
+	add_action( "activated_plugin", "wpabr_1st_2_dev" );
+
+	global $wp_version;
+
+	if ( $wp_version < 3.1 )
+		{
+			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
+		}
 
 	function wpabr_rbams()
 		{
@@ -395,9 +354,9 @@ Network: true
 		{
 			if ( $file == plugin_basename( __FILE__ ) )
 				{
-					$links[] = '<a href="//slangji.wordpress.com/donate/">Donate</a>';
-					$links[] = '<a href="//slangji.wordpress.com/contact/">Contact</a>';
-					$links[] = '<a href="//slangji.wordpress.com/plugins/">Other</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/donate/">Donate</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/contact/">Contact</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/plugins/">Others plugins</a>';
 				}
 			return $links;
 		}
@@ -405,14 +364,14 @@ Network: true
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin Admin Bar Removal 2014.1210.0410-DEV Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin Admin Bar Removal 2013.0624.0361 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
 
 			if ( $wp_version >= 3.3 )
 				{
-					echo " Toolbar";
+					echo " ToolBar";
 				}
 
 			if ( $wp_version >= 3.1 )
@@ -427,17 +386,4 @@ Network: true
 		}
 	add_action( 'wp_head', 'wpabr_hfl' );
 	add_action( 'wp_footer', 'wpabr_hfl' );
-?>
-<?php
-add_action( 'admin_enqueue_scripts', 'disable_admin_hover_intent' );
-
-function disable_admin_hover_intent() {
-    wp_enqueue_script( 'disable-admin-hover-intent', plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ), array( 'admin-bar', 'common' ) );
-}
-
-add_action( 'admin_enqueue_scripts', 'hide_admin_icons' );
-
-function hide_admin_icons() {
-	wp_enqueue_style( 'hide-admin-icons', plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
-}
 ?>
