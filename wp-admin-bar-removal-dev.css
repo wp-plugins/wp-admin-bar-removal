@@ -1,48 +1,10 @@
-/**
- * Hide the admin menu icons
- */
-#adminmenu .wp-menu-image {
-	display: none;
-}
 
-/**
- * Show the admin menu icons when the menu is collapsed
- */
-.folded #adminmenu .wp-menu-image {
-	display: inline;
-}
+/*
+Version: 2014.1210.0410-DEV
+*/
 
-@media only screen and (max-width:900px) {
-	#adminmenu .wp-menu-image {
-		display: inline;
-	}
-}
+	/**
+	 * Contact me to know how to get this file and test new features
+	 * that will be developed offline @ slangji.wordpress.com/contact/
+	 */
 
-/**
- * Add left padding to menu labels if the MP6 plugin (http://wordpress.org/plugins/mp6/) is active
- * or if we're on the WordPress 3.8 branch
- */
-.mp6 #adminmenu div.wp-menu-name,
-.branch-3-8 #adminmenu div.wp-menu-name {
-	padding-left: 10px;
-}
-
-/**
- * Hide the page title icons
- */
-.icon32 {
-	display: none;
-}
-
-.wrap h2 {
-	margin-left: 5px;
-}
-
-/**
- * Remove left margin from header if MP6 plugin is active
- * or if we're on the WordPress 3.8 branch
- */
-.mp6 .wrap h2,
-.branch-3-8 .wrap h2 {
-	margin-left: 0;
-}
