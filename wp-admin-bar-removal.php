@@ -4,7 +4,6 @@ Plugin Name: WP Admin Bar Removal
 Plugin URI: //slangji.wordpress.com/wp-admin-bar-removal/
 Description: disable admin bar and toolbar on wordpress 3.1+ to 4.1+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2014.0507.0391
-Stable tag: trunk
 Author: sLa NGjI's
 Author URI: //slangji.wordpress.com/
 Requires at least: 3.1

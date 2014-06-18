@@ -2,8 +2,7 @@
 Contributors: slangjis
 Donate link: //slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
-Version: 2014.0507.0391
-Stable tag: trunk
+Stable tag: 2014.0507.0391
 Requires at least: 3.1
 Tested up to: 3.9.1
 License: GPLv2 or later
