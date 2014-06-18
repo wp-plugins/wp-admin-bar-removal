@@ -1,21 +1,21 @@
 <?php
 /*
 Plugin Name: WP Admin Bar Removal
-Plugin URI: //slangji.wordpress.com/wp-admin-bar-removal/
+Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
 Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2014.0418.0373
 Author: sLa NGjI's
-Author URI: //slangji.wordpress.com/
+Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
 Tested up to: 3.7.3
 License: GPLv2 or later (license.txt)
-License URI: //www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
-Indentation URI: //www.gnu.org/prep/standards/standards.html
+Indentation URI: http://www.gnu.org/prep/standards/standards.html
 Humans: We are the Humans behind (humans.txt)
-Humans URI: //humanstxt.org/Standard.html
+Humans URI: http://humanstxt.org/Standard.html
  *
-Donate link: //slangji.wordpress.com/donate/
+Donate link: http://slangji.wordpress.com/donate/
  *
 Network: true
  *
