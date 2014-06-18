@@ -15,6 +15,8 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 Humans: We are the Humans behind (humans.txt)
 Humans URI: //humanstxt.org/Standard.html
  *
+Donate link: //slangji.wordpress.com/donate/
+ *
 Network: true
  *
  * LICENSING (license.txt)

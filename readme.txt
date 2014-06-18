@@ -1,18 +1,19 @@
 === Disable WP Admin Bar Removal ===
 Contributors: slangjis
-Donate link: http://slangji.wordpress.com/donate/
+Donate link: //slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
+Stable tag: 2014.0418.0373
 Requires at least: 3.1
 Tested up to: 3.7.3
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: //www.gnu.org/licenses/gpl-2.0.html
 disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel
 == Description ==
 disable wordpress admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel removal plugin wp clean DashBoard menu for all users subscribers on backend and frontend
 
 Disable WP Admin Bar and ToolBar Removal from Home Page and DashBoard Clean Remove Code for all Users logged in and logged out Completely on WordPress 3.1+ to 3.7+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
 
-Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ and 3.9+ is [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
+Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ and 3.9+ is [WP ToolBar Removal](//wordpress.org/plugins/wp-toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
 
 Rules:
 
@@ -23,9 +24,9 @@ Rules:
 1. The configuration of this plugin is Automattic!
 1. Compatible with Shared, Dedicated, Cloud and VPS Hosting.
 1. Run on Hosting with high and low resources.
-1. Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
-1. Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
-1. Meet detailed [Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) quality requirements.
+1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License.
+1. Implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
+1. Meet detailed [Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) quality requirements.
 
 Features:
 
@@ -105,7 +106,7 @@ If all else fails and your site is broken remove directly via ftp on your host s
 == Frequently Asked Questions ==
 disable admin bar or toolbar on personal options turn off only theme integration but not remove code without minimizing memory consumption and speedup loading of control panel
 
-[Goodbye Admin Bar, Hello ToolBar](http://digwp.com/2012/01/goodbye-admin-bar-hello-toolbar/) Posted on: January 13, 2012 by Jeff Starr
+[Goodbye Admin Bar, Hello ToolBar](//digwp.com/2012/01/goodbye-admin-bar-hello-toolbar/) Posted on: January 13, 2012 by Jeff Starr
 
 When the Admin Bar hit the streets in WordPress 3.1, people seemed to either love it or hate it. And rightly so, it was a significant change in the appearance of the WP Admin area, and if not disabled in your User Profile, the front-end of your site as well. Many tips, tricks and plugins for customizing the Admin Bar began appearing around the Web. And then just as the dust began to settle, BAM — the “Admin Bar” transforms into the “Toolbar” with the WordPress 3.3 update.
 
@@ -133,7 +134,7 @@ The new ToolBar certainly looks better, but concerns remain. From what I’ve ga
 So yeah, something changed, so the question for the Admin ToolBar is “what works and what doesn’t?” Let’s dig in and see what’s up..
 Admin Bar changes, now WP ToolBar
 
-As [Ipstenu puts it](http://wordpress.org/support/topic/hiding-admin-bar-in-wordpress-33#post-2495448): “You don’t have to like it, but it’s here to stay.” So it’s time to look at things practically and get on with it. First of all, if you have a plugin or functions script that hides, removes, or customizes the Admin Bar, definitely investigate to see if everything is still working according to plan.
+As [Ipstenu puts it](//wordpress.org/support/topic/hiding-admin-bar-in-wordpress-33#post-2495448): “You don’t have to like it, but it’s here to stay.” So it’s time to look at things practically and get on with it. First of all, if you have a plugin or functions script that hides, removes, or customizes the Admin Bar, definitely investigate to see if everything is still working according to plan.
 What works..
 
 After some testing, we’ve seen the following functions.php snippets continue to work in WordPress version 3.3:
@@ -205,10 +206,10 @@ Developmental Code in Becoming!
 * Major Update [CERTIFIED] Full WordPress 3.3+ Compatible.
  * Please update as soon possible!
  * First 2012 Major Release Certified
- * Based on [Admin Bar Node Removal](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
- * Try [olyma](http://wordpress.org/plugins/one-click-logout-barless/) add-on to re-enable logout functionality!
- * Try my latest new [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Plugin
- * Try also my latest new [ToolBar Node Removal](http://wordpress.org/plugins/wp-toolbar-node-removal/) Plugin
+ * Based on [Admin Bar Node Removal](//wordpress.org/plugins/wp-admin-bar-node-removal/)
+ * Try [olyma](//wordpress.org/plugins/one-click-logout-barless/) add-on to re-enable logout functionality!
+ * Try my latest new [ToolBar Removal](//wordpress.org/plugins/wp-toolbar-removal/) Plugin
+ * Try also my latest new [ToolBar Node Removal](//wordpress.org/plugins/wp-toolbar-node-removal/) Plugin
  * NEW Faster DashBoard Speedup
  * NEW Maximun Free Memory
  * Full WordPress 3.3+ Support
@@ -234,7 +235,7 @@ Developmental Code in Becoming!
 * Major Update [STABLE] Full WordPress 3.1+ Compatible.
  * Please update as soon possible!
  * UPDATE Full WordPress 3.1+ Support.
- * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
  * FIXED 28px related issues
  * FIXED Personal Options Class on User Profile (hide related)
  * Completely Disable Admin Bar Frontend Backend and Remove Code.
@@ -270,7 +271,7 @@ Developmental Code in Becoming!
 = 2010.1229.1656 =
 * Update [CRITICAL] Fixed Ticket #16004 Upgrade 3.1-RC1-17163
  * Please update as soon possible!
- * FIXED [Ticket #16004](http://core.trac.wordpress.org/ticket/16004)
+ * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
  * UPDATE Preemptive support WP 3.1-RC1-17163
  * Completely Disable Admin Bar Frontend Backend User and Code.
  * Bump Version 2010 Build 1229 Revision 1656
