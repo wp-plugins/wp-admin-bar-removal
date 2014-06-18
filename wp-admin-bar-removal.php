@@ -391,7 +391,7 @@ Network: true
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin Admin Bar Removal 2014.0507.0391 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Admin Bar Removal 2014.0507.0391 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
