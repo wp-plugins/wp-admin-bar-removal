@@ -1,22 +1,24 @@
-=== Remove Disable Admin Bar Removal ===
+=== Disable WP Admin Bar Removal ===
 Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, admin-bar, disable-admin-bar, disable-wordpress-admin-bar, disable-toolbar, disable-wordpress-toolbar, remove-admin-bar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangjis, toolbar
+Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 3.6
+Tested up to: 3.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-remove wordpress admin bar toolbar for all user disable frontend backend code minimize memory consumption speedup loading control panel
+disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel
 == Description ==
-remove wordpress admin bar toolbar for all user disable frontend backend code minimize memory consumption speedup loading control panel
+disable wordpress admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel removal plugin wp clean DashBoard menu for all users subscribers on backend and frontend
 
-Disable Admin Bar and ToolBar, from Home Page and DashBoard, on WordPress 3.1+ to 3.6+ for all Users, logged in and logged out and Completely Remove Related Code on Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
+Disable WP Admin Bar and ToolBar Removal from Home Page and DashBoard Clean Remove Code for all Users logged in and logged out Completely on WordPress 3.1+ to 3.7+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
+
+Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ and 3.9+ is [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
 
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress.
-1. Unified Coding to run with WordPress 3.1+ to 3.6+ or later.
+1. Unified Coding to run with WordPress 3.1+ to 3.7+
 1. Ready to Single and Network Multisite Environment.
 1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code.
 1. The configuration of this plugin is Automattic!
@@ -36,6 +38,9 @@ Features:
 1. Remove Backend DashBoard Admin Bar/ToolBar Pointer (ToolTips)
 1. Remove Backend "28px gap" on top of Admin DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/ToolBar"
+1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
+1. Hide Admin Page Title Icons in the Backend DashBoard
+1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
 1. Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
 1. Show realtime datetime on top of DashBoard for WP 3.3+ or later
@@ -64,20 +69,23 @@ No need to delete anything from the wp_option when deactivate!
 No need to delete anything from the wp_option when deleted!
 Not need other actions except installing or uninstall it!
 `
-Thanks to olyma, storkontheroof, focus3d
+Special Thanks to: [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523) and [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
 
-* [My Others WordPress Plugins](http://slangji.wordpress.com/plugins/)
- * [WP Overview (lite)](http://wordpress.org/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/plugins/wp-missed-schedule/)
- * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
- * [WP Admin Bar Removal Node](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
- * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
- * [WP ToolBar Removal Node](http://wordpress.org/plugins/wp-toolbar-node-removal/)
- * [Noindex (login) WordPress Deindexing](http://wordpress.org/plugins/wp-login-deindexing/) (refreshed)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/plugins/wp-total-deindexing/) (refreshed)
- * [IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
- * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/plugins/wp-memory-db-indicator/) (new)
- * [Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
+* [My Others WordPress Plugins](//slangji.wordpress.com/plugins/)
+ * [WP Overview (lite)](//wordpress.org/plugins/wp-overview-lite/)
+ * [WP Missed Schedule](//wordpress.org/plugins/wp-missed-schedule/)
+ * [Global Hide Toolbar](//wordpress.org/plugins/global-admin-bar-hide-or-remove/) (new)
+ * [WP Admin Bar Removal](//wordpress.org/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
+ * [WP Admin Bar Removal Node](//wordpress.org/plugins/wp-admin-bar-node-removal/)
+ * [WP ToolBar Removal](//wordpress.org/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
+ * [WP ToolBar Removal Node](//wordpress.org/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](//wordpress.org/plugins/wp-login-deindexing/) (refreshed)
+ * [Noindex (total) WordPress Deindexing](//wordpress.org/plugins/wp-total-deindexing/) (refreshed)
+ * [IE Enhancer and Modernizer](//wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Memory Load Consumption db size Usage Indicator](//wordpress.org/plugins/wp-memory-db-indicator/) (new)
+ * [Header Footer Login Log](//wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
+ * [One Click Logout](//wordpress.org/plugins/one-click-logout/) (new)
+ * [One Click Logout Barless](//wordpress.org/plugins/one-click-logout-barless/) (new)
 == Installation ==
 before install this plugin, is reccomended, but is not needed, to unflag -> personal options -> show admin bar/toolbar -> when viewing site/on dashboard
 = How to install (manual) =
@@ -164,7 +172,7 @@ Without a doubt things will continue to change, and it’ll be fun watching as W
 6. DashBoard with "WP ToolBar Removal": faster and user friendly ...
 7. Personal Options: not needed if Admin Bar or ToolBar is disadled and removed!
 == Changelog ==
-the latest version of this plugin work on all wordpress version from 3.1+ to 3.6+ with new unified coding
+the latest version of this plugin work on all wordpress version from 3.1+ to 3.7+ with new unified coding
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
@@ -173,7 +181,7 @@ Developmental Code in Becoming!
 = 2013.0624.0361 =
 * Major Update [CERTIFIED] Remove Admin Bar and ToolBar with New Unified Coding!
  * Please update as soon as possible!
- * NEW Unified Coding to run with WordPress 3.1+ to 3.6+ or later
+ * NEW Unified Coding to run with WordPress 3.1+ to 3.7+
  * NEW Show i18n realtime datetime on top of DashBoard for WP 3.3+ or later
  * NEW Disable User Personal Options Settings "Show Admin Bar/ToolBar"
  * NEW Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
@@ -322,7 +330,7 @@ Developmental Code in Becoming!
  * Bump Version 2010 Build 1025 Revision 0356
 == Upgrade Notice ==
 = 2013.0624.0361 =
-Major Update [CERTIFIED] Disable and Remove Admin Bar and ToolBar Code Completely on WordPress 3.1+ to 3.6+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
+Major Update [CERTIFIED] Disable and Remove Admin Bar and ToolBar Code Completely on WordPress 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
 = 2012.0320.2012 =
 Major Update [CERTIFIED] Full WordPress 3.3+ Compatible. Maximized Free Memory and DashBoard Speedup!
 = 2011.0921.2011 =
