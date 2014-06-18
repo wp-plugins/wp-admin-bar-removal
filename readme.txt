@@ -1,24 +1,24 @@
 === Disable WP Admin Bar Removal ===
 Contributors: slangjis
-Donate link: http://slangji.wordpress.com/donate/
+Donate link: //slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 3.7.3
+Tested up to: 3.9.1
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: //www.gnu.org/licenses/gpl-2.0.html
 disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel
 == description ==
 disable wordpress wp admin bar toolbar for all user remove frontend backend code minimize memory consumption speedup loading control panel removal plugin clean dashboard menu for all users subscribers on backend and frontend
 
-Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all Users logged in and logged out Completely on WordPress 3.1+ to 3.7+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
+Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all Users logged in and logged out Completely on WordPress 3.1+ to 4.1+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 4.1+
 
-Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ and 3.9+ is [WP Toolbar Removal](//wordpress.org/plugins/wp-Toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
+Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ to 4.1+ is [WP Toolbar Removal](//wordpress.org/plugins/wp-Toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
 
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress.
-1. Unified Coding to run with WordPress 3.1+ to 3.7+
+1. Unified Coding to run with WordPress 3.1+ to 4.1+
 1. Ready to Single and Network Multisite Environment.
 1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code.
 1. The configuration of this plugin is Automattic!
@@ -172,19 +172,19 @@ Without a doubt things will continue to change, and it’ll be fun watching as W
 6. DashBoard with "WP Toolbar Removal": faster and user friendly ...
 7. Personal Options: not needed if Admin Bar or Toolbar is disadled and removed!
 == Changelog ==
-the latest version of this plugin work on all wordpress version from 3.1+ to 3.7+ with new unified coding
+the latest version of this plugin work on all wordpress version from 3.1+ to 4.1+ with new unified coding
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
-= 2014.0418.0373 =
+= 2014.0507.0391 =
 * Major Update [CERTIFIED] Remove Admin Bar and Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard
  * ADD preemptive support for external css and js files
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
- * NEW unified coding to run with WordPress 3.1+ to 3.7+
+ * NEW unified coding to run with WordPress 3.1+ to 4.1+
  * NEW updated code for max speedup of dashboard and admin menu
  * NEW show i18n realtime datetime on top of dashboard for WP 3.3+ or later
  * NEW disable user personal options settings "Show Admin Bar/Toolbar"
@@ -214,7 +214,7 @@ Developmental Code in Becoming!
  * UPDATED removed redundant and unneeded filters
  * UPDATED removed redundant and unneeded styles
  * UPDATED removed unnecessary complex code
- * BUMP Version 2014 Build 0418 Revision 0373
+ * BUMP Version 2014 Build 0507 Revision 0391
 == Upgrade Notice ==
-= 2014.0418.0373 =
-Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality!
+= 2014.0507.0391 =
+Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 4.1+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality!

@@ -1,21 +1,22 @@
 <?php
 /*
 Plugin Name: WP Admin Bar Removal
-Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2014.0418.0373
+Plugin URI: //slangji.wordpress.com/wp-admin-bar-removal/
+Description: disable admin bar and toolbar on wordpress 3.1+ to 4.1+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Version: 2014.0507.0391
+Stable tag: trunk
 Author: sLa NGjI's
-Author URI: http://slangji.wordpress.com/
+Author URI: //slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.7.3
+Tested up to: 3.9.1
 License: GPLv2 or later (license.txt)
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: //www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
-Indentation URI: http://www.gnu.org/prep/standards/standards.html
+Indentation URI: //www.gnu.org/prep/standards/standards.html
 Humans: We are the Humans behind (humans.txt)
-Humans URI: http://humanstxt.org/Standard.html
+Humans URI: //humanstxt.org/Standard.html
  *
-Donate link: http://slangji.wordpress.com/donate/
+Donate link: //slangji.wordpress.com/donate/
  *
 Network: true
  *
@@ -161,8 +162,8 @@ Network: true
 	 * @subpackage WordPress PlugIn
 	 * @description Disable WordPress Admin Bar and Toolbar and Remove Code
 	 * @since 3.1.0
-	 * @tested 3.7.3
-	 * @version 2014.0418.0373
+	 * @tested 3.9.1
+	 * @version 2014.0507.0391
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -390,7 +391,7 @@ Network: true
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin Admin Bar Removal 2014.0418.0373 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin Admin Bar Removal 2014.0507.0391 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
@@ -412,4 +413,37 @@ Network: true
 		}
 	add_action( 'wp_head', 'wpabr_hfl' );
 	add_action( 'wp_footer', 'wpabr_hfl' );
+
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal.js' ) )
+
+		{
+
+			add_action( 'admin_enqueue_scripts' , 'wp_admin_bar_removal_js' );
+
+		}
+
+	function wp_admin_bar_removal_js()
+
+		{
+
+			wp_enqueue_script( 'wp_admin_bar_removal_js' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+
+		}
+
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal.css' ) )
+
+		{
+
+			add_action( 'admin_enqueue_scripts' , 'wp_admin_bar_removal_css' );
+
+		}
+
+	function wp_admin_bar_removal_css()
+
+		{
+
+			wp_enqueue_style( 'wp_admin_bar_removal_css' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
+
+		}
+
 ?>
