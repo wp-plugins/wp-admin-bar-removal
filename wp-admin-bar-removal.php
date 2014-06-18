@@ -426,7 +426,7 @@ Network: true
 
 		{
 
-			wp_enqueue_script( 'wp_admin_bar_removal_js' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+			wp_enqueue_script( 'wp-admin-bar-removal-js' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
 
 		}
 
@@ -442,7 +442,7 @@ Network: true
 
 		{
 
-			wp_enqueue_style( 'wp_admin_bar_removal_css' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
+			wp_enqueue_style( 'wp-admin-bar-removal-css' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
 
 		}
 
