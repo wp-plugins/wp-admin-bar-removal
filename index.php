@@ -13,6 +13,12 @@ header( 'HTTP/1.1 404 Not Found' );
 </head>
 <body>
 <h1>Not Found</h1>
-<div><noscript><div>404 Not Found</div></noscript></div>
+<div>
+<noscript>
+<h1>Not Found</h1>
+</noscript>
+</div>
+<hr>
+<address>Apache Server at gfpoint.com Port 80</address>
 </body>
 </html>
