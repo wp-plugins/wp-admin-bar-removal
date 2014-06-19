@@ -7,9 +7,7 @@ Requires at least: 3.1
 Tested up to: 3.9.1
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
 == description ==
-disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers
-
-Is planned compatibility update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ ? The plugin that is updated for compatibility with WordPress 3.8+ to 4.1+ is [WP Toolbar Removal](//wordpress.org/plugins/wp-Toolbar-removal/) for now ... Please: migrate to it A.S.A.P.
+disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is WP Toolbar Removal Migrate to it A.S.A.P.
 
 Rules:
 
@@ -65,9 +63,9 @@ No need to delete anything from the wp_option when deactivate!
 No need to delete anything from the wp_option when deleted!
 Not need other actions except installing or uninstall it!
 `
-Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 4.1+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 4.1+
-
 Special Thanks to: [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523) and [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
+
+Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 4.1+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 4.1+
 
 * [My Others WordPress Plugins](//slangji.wordpress.com/plugins/)
  * [WP Overview (lite)](//wordpress.org/plugins/wp-overview-lite/)
