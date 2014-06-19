@@ -1,12 +1,10 @@
 === Disable WP Admin Bar Removal ===
 Contributors: slangjis
-Donate link: //slangji.wordpress.com/donate/
+Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
-Stable tag: 2014.0507.0391
+Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.9.1
-License: GPLv2 or later
-License URI: //www.gnu.org/licenses/gpl-2.0.html
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
 == description ==
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers
