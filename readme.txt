@@ -7,7 +7,7 @@ Requires at least: 3.1
 Tested up to: 3.9.1
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
 == description ==
-disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is WP Toolbar Removal Migrate to it A.S.A.P.
+disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
 Rules:
 
