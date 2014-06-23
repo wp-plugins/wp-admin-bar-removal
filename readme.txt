@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
 == description ==
-disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 3.7+ / 3.7+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
+disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
 Rules:
 
