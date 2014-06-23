@@ -2,19 +2,18 @@
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 4.1+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2014.0507.0391
+Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Version: 2014.0531.0373
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.9.1
-Donate link: http://slangji.wordpress.com/donate/
+Tested up to: 3.7.3
 Network: true
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
-Humans: We are the Humans behind (humans.txt)
+Humans: We are the humans behind
 Humans URI: http://humanstxt.org/Standard.html
  *
  * LICENSING (license.txt)
@@ -152,15 +151,19 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * TODOLIST
  *
+ * [to-do list and changelog](//wordpress.org/plugins/wp-admin-bar-removal/changelog/)
+ *
  */
 
 	/**
 	 * @package WP Admin Bar Removal
 	 * @subpackage WordPress PlugIn
 	 * @description Disable WordPress Admin Bar and Toolbar and Remove Code
-	 * @since 3.1.0
-	 * @tested 3.9.1
-	 * @version 2014.0507.0391
+	 * @branche 2013
+	 * @build   2014-05-31
+	 * @since   3.1.0
+	 * @tested  3.7.3
+	 * @version 2014.0531.0373
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -378,9 +381,9 @@ Humans URI: http://humanstxt.org/Standard.html
 		{
 			if ( $file == plugin_basename( __FILE__ ) )
 				{
-					$links[] = '<a href="//slangji.wordpress.com/donate/">Donate</a>';
-					$links[] = '<a href="//slangji.wordpress.com/contact/">Contact</a>';
-					$links[] = '<a href="//slangji.wordpress.com/plugins/">Other</a>';
+					$links[] = '<a title="Bugfix and Suggestions" href="//slangji.wordpress.com/contact/">Contact</a>';
+					$links[] = '<a title="Offer a Beer to sLa" href="//slangji.wordpress.com/donate/">Donate</a>';
+					$links[] = '<a title="Visit other author plugins site" href="//slangji.wordpress.com/plugins/">Other</a>';
 				}
 			return $links;
 		}
@@ -388,7 +391,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin WP Admin Bar Removal 2014.0507.0391 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Admin Bar Removal 2014.0531.0373 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
