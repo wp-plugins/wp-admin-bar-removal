@@ -7,25 +7,22 @@ Requires at least: 3.1
 Tested up to: 3.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
-
 == description ==
-
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 3.7+ / 3.7+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
 Rules:
 
-1. Compatible with: WordPress, bbPress, Buddypress.
+1. Compatible with: WordPress, bbPress, Buddypress
 1. Unified Coding to run with WordPress 3.1+ to 3.7+
-1. Ready to Single and Network Multisite Environment.
-1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code.
+1. Ready to Single and Network Multisite Environment
+1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code
 1. The configuration of this plugin is Automattic!
-1. Compatible with Shared, Dedicated, Cloud and VPS Hosting.
-1. Run on Hosting with high and low resources.
-1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License.
-1. Implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
-1. Meet detailed [Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) quality requirements.
+1. Compatible with Shared, Dedicated, Cloud and VPS Hosting
+1. Run on Hosting with high and low resources
+1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License
+1. Implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation
+1. Meet detailed [Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) quality requirements
 
 Features:
 
@@ -50,13 +47,13 @@ Features:
 * Reduce Core Memory Consumption
 * Reduce WordPress Memory Usage
 * Free Unused Memory Load
-* Less Plugin Memory Consumption.
-* Full Strict Security Rules Applied.
-* Handy Syntax Improvement.
-* Reduce Code Bloat.
-* Code Cleanup for faster loading.
-* Only one unique PHP file.
-* Supports PHP 4 and PHP 5.
+* Less Plugin Memory Consumption
+* Full Strict Security Rules Applied
+* Handy Syntax Improvement
+* Reduce Code Bloat
+* Code Cleanup for faster loading
+* Only one unique PHP file
+* Supports PHP 4 and PHP 5
 `
 Nothing is written into space disk!
 Nothing is written into wp_option database table!
@@ -150,6 +147,7 @@ Developmental Code in Becoming!
 = 2014.0531.0373 =
 * Major Update [CERTIFIED] Remove Admin Bar and Toolbar with New Unified Coding!
  * Please update as soon as possible!
+ * Planned Target Version: 2014.1210.0410
  * ADD preemptive support for WP 3.8+ to 3.7+ adaptive dasboard
  * ADD preemptive support for external css and js files
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
