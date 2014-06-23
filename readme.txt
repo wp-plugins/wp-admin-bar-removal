@@ -88,7 +88,7 @@ Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remo
  * [One Click Logout](//wordpress.org/plugins/one-click-logout/) (new)
  * [One Click Logout Barless](//wordpress.org/plugins/one-click-logout-barless/) (new)
 == Installation ==
-before install this plugin, is reccomended, but is not needed, to unflag -> personal options -> show admin bar/Toolbar -> when viewing site/on dashboard
+before install this plugin, is reccomended, but is not needed, to unflag: personal options, show admin bar/toolbar, when viewing site/on dashboard
 = How to install (manual) =
 1. Download
 2. Upload it into your plugins directory from Plugin Add Feature or FTP
@@ -183,7 +183,7 @@ Developmental Code in Becoming!
  * UPDATED removed redundant and unneeded filters
  * UPDATED removed redundant and unneeded styles
  * UPDATED removed unnecessary complex code
- * BUMP Version 2014 Build 0507 Revision 0391
+ * BUMP Version 2014 Build 0531 Revision 0373
 == Upgrade Notice ==
 = 2014.0531.0373 =
-Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality!
+Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
