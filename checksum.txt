@@ -1,0 +1,14 @@
+WP Admin Bar Removal - Build 2014-05-31 (Version 2014.0531.0373) MD5 Checksum:
+
+index.html                                    556AA5A2798B4B257C532348EE074AD0
+.htaccess                                     57F0ADD4CCE6E5ABF409839D8F903878
+gpl-2.0.txt                                   B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                    C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                     C2B09AC774912FDD720502BCCE3D5B8B
+license.txt                                   B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                    D804904D31D025DA0049100849D40B3A
+wp-admin-bar-removal.css                      5489405CE540EF37B8E7C699A87636B9
+wp-admin-bar-removal.js                       A43A20DECD9B516378519AD921631591
+wp-admin-bar-removal.php                      C5567A5B19D2FB626459AB7CD7B7C2F6
+
+

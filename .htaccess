@@ -6,6 +6,14 @@ Deny From All
 Order Allow,Deny
 Deny From All
 </Files>
+<Files gpl-2.0.txt>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files humans.txt>
+Order Allow,Deny
+Deny From All
+</Files>
 <Files license.txt>
 Order Allow,Deny
 Deny From All

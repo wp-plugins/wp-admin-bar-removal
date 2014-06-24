@@ -148,7 +148,7 @@ Developmental Code in Becoming!
 * Major Update [CERTIFIED] Remove Admin Bar and Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
- * ADD preemptive support for WP 3.8+ to 3.7+ adaptive dasboard
+ * ADD preemptive support for WP 3.8+ to 4.0+ adaptive dasboard
  * ADD preemptive support for external css and js files
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
  * NEW unified coding to run with WordPress 3.1+ to 3.7+

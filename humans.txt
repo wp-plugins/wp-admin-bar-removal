@@ -1,8 +1,8 @@
-humans.txt - we are the humans behind code programming | sLa NGjI's Team
+humans.txt - we are the humans behind code programming | sLaNGjIs Team
 
 /* TEAM */
 
-    Name:        sLa NGjI's
+    Name:        sLaNGjIs
     Title:       Plugin Owner Author
     Site:        slangji.wordpress.com
     Blog:        slangji.wordpress.com/blog
@@ -36,4 +36,5 @@ humans.txt - we are the humans behind code programming | sLa NGjI's Team
 	             PHP, HTML, XHTML, HTML5, XHTML5, CSS, CSS3,
 				 jQuery, Ajax, JavaScript, MySQL, HyperDB
 				 Notepad++, FileZilla, TortoiseSVN, FireFox,
+
 
