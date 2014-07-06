@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Admin Bar Removal - DEV
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar or toolbar on WordPress 3.1+ to 3.8+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic!
+Description: disable admin bar or toolbar on WordPress 3.1+ to 3.8+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic! DEVELOPMENT VERSION (Build 2014-07-07)
 Version: 2014.0707.0383
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
@@ -415,7 +415,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	add_action( 'wp_head', 'wpabr_hfl' );
 	add_action( 'wp_footer', 'wpabr_hfl' );
 
-	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal.js' ) )
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal-dev.js' ) )
 
 		{
 
@@ -427,11 +427,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 		{
 
-			wp_enqueue_script( 'wp-admin-bar-removal-js' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+			wp_enqueue_script( 'wp-admin-bar-removal-js' , plugins_url( 'wp-admin-bar-removal-dev.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
 
 		}
 
-	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal.css' ) )
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal-dev.css' ) )
 
 		{
 
@@ -443,7 +443,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 		{
 
-			wp_enqueue_style( 'wp-admin-bar-removal-css' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
+			wp_enqueue_style( 'wp-admin-bar-removal-css' , plugins_url( 'wp-admin-bar-removal-dev.css' , __FILE__ ) );
 
 		}
 
