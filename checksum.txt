@@ -1,4 +1,4 @@
-WP Admin Bar Removal - TAG - Build 2014-05-31 (Version 2014.0531.0373) MD5 Checksum:
+WP Admin Bar Removal - DEV - Build 2014-07-07 (Version 2014.0707.0383) MD5 Checksum:
 
 index.htm                                           556AA5A2798B4B257C532348EE074AD0
 index.html                                          556AA5A2798B4B257C532348EE074AD0
@@ -9,16 +9,10 @@ gpl-2.0.txt                                         B234EE4D69F5FCE4486A80FDAF4A
 humans.txt                                          C1509896B9059CDB6BA0A74F6F78CE74
 index.php                                           C2B09AC774912FDD720502BCCE3D5B8B
 license.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                          5CA0EE8933F55C604DAD772B35BAF27E
+readme.txt                                          A9A7E804745660916FA3F6E6172BA165
 
-wp-admin-bar-removal.php                            1BE6E73074CDC5C784E8A73D31D21403
 wp-admin-bar-removal.css                            5489405CE540EF37B8E7C699A87636B9
 wp-admin-bar-removal.js                             A43A20DECD9B516378519AD921631591
-
-WP Admin Bar Removal - DEV - Build 2014-07-07 (Version 2014.0707.0383) MD5 Checksum:
-
-wp-admin-bar-removal-dev.php                        42CBC02E2039878704D48ABBF08E9535
-wp-admin-bar-removal-dev.css                        ED1ADFE54D41A3164FA1DA8ADE744E70
-wp-admin-bar-removal-dev.js                         0B7341B76E41E02D34C2030086D5DCA7
+wp-admin-bar-removal.php                            9416F5722A489CC813783A6CB4841750
 
 
