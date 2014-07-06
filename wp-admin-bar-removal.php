@@ -8,7 +8,6 @@ Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
 Tested up to: 3.7.3
-Network: true
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard

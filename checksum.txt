@@ -9,6 +9,6 @@ license.txt                                   B234EE4D69F5FCE4486A80FDAF4A4263
 readme.txt                                    D804904D31D025DA0049100849D40B3A
 wp-admin-bar-removal.css                      5489405CE540EF37B8E7C699A87636B9
 wp-admin-bar-removal.js                       A43A20DECD9B516378519AD921631591
-wp-admin-bar-removal.php                      C5567A5B19D2FB626459AB7CD7B7C2F6
+wp-admin-bar-removal.php                      F9485666DE1CB06F2328BF1D5D5D5BA5
 
 
