@@ -2,12 +2,12 @@
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2014.0531.0373
+Description: disable admin bar and toolbar on wordpress 3.1+ to 3.8+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Version: 2014.0707.0383
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.7.3
+Tested up to: 3.8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
@@ -158,11 +158,11 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @package WP Admin Bar Removal
 	 * @subpackage WordPress PlugIn
 	 * @description Disable WordPress Admin Bar and Toolbar and Remove Code
-	 * @branche 2013
-	 * @build   2014-05-31
+	 * @branche 2014
+	 * @build   2014-07-07
 	 * @since   3.1.0
-	 * @tested  3.7.3
-	 * @version 2014.0531.0373
+	 * @tested  3.8.3
+	 * @version 2014.0707.0383
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -390,7 +390,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin WP Admin Bar Removal 2014.0531.0373 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Admin Bar Removal 2014.0707.0383 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;

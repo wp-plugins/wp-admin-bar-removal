@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 3.7.3
+Tested up to: 3.8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
@@ -14,7 +14,7 @@ disable wordpress admin bar for all user roles remove frontend backend code redu
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress
-1. Unified Coding to run with WordPress 3.1+ to 3.7+
+1. Unified Coding to run with WordPress 3.1+ to 3.8+
 1. Ready to Single and Network Multisite Environment
 1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code
 1. The configuration of this plugin is Automattic!
@@ -67,7 +67,7 @@ Not need other actions except installing or uninstall it!
 `
 Special Thanks to: [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523) and [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
 
-Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 3.7+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.7+
+Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 3.8+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.8+
 
 * [My Others WordPress Plugins](//slangji.wordpress.com/plugins/)
  * [WP Overview (lite)](//wordpress.org/plugins/wp-overview-lite/)
@@ -138,7 +138,7 @@ The new Toolbar certainly looks better, but concerns remain. From what i've gath
 6. DashBoard with "WP Toolbar Removal": faster and user friendly ...
 7. Personal Options: not needed if Admin Bar or Toolbar is disadled and removed!
 == Changelog ==
-the latest version of this plugin work on all wordpress version from 3.1+ to 3.7+ with new unified coding
+the latest version of this plugin work on all wordpress version from 3.1+ to 3.8+ with new unified coding
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
@@ -151,7 +151,7 @@ Developmental Code in Becoming!
  * ADD preemptive support for WP 3.8+ to 4.0+ adaptive dasboard
  * ADD preemptive support for external css and js files
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
- * NEW unified coding to run with WordPress 3.1+ to 3.7+
+ * NEW unified coding to run with WordPress 3.1+ to 3.8+
  * NEW updated code for max speedup of dashboard and admin menu
  * NEW show i18n realtime datetime on top of dashboard for WP 3.3+ or later
  * NEW disable user personal options settings "Show Admin Bar/Toolbar"
@@ -184,4 +184,4 @@ Developmental Code in Becoming!
  * BUMP Version 2014 Build 0531 Revision 0373
 == Upgrade Notice ==
 = 2014.0531.0373 =
-Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
