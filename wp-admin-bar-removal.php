@@ -1,8 +1,8 @@
-<?php
+<?php 
 /*
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
-Description: disable admin bar and toolbar on wordpress 3.1+ to 3.8+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
+Description: disable admin bar or toolbar on WordPress 3.1+ to 3.8+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic!
 Version: 2014.0707.0383
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
@@ -10,6 +10,9 @@ Requires at least: 3.1
 Tested up to: 3.8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/**
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
 Humans: We are the humans behind
@@ -19,7 +22,7 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * [WP Admin Bar Removal](//wordpress.org/plugins/wp-admin-bar-removal/)
  *
- * Disable WordPress Admin Bar and Toolbar and Remove Code
+ * Disable WordPress Admin Bar or Toolbar and Remove Code
  *
  * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
@@ -156,8 +159,9 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	/**
 	 * @package WP Admin Bar Removal
-	 * @subpackage WordPress PlugIn
-	 * @description Disable WordPress Admin Bar and Toolbar and Remove Code
+	 * @subpackage WordPress Plugin
+	 * @description Disable WordPress Admin Bar or Toolbar and Remove Code
+	 * @install The configuration of this plugin is Automatic!
 	 * @branche 2014
 	 * @build   2014-07-07
 	 * @since   3.1.0
