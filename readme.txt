@@ -57,6 +57,7 @@ Features:
 * Code Cleanup for faster loading
 * Only one unique PHP file
 * Supports PHP 4 and PHP 5
+
 `
 Nothing is written into space disk!
 Nothing is written into wp_option database table!
@@ -68,6 +69,7 @@ No need to delete anything from the wp_option when deactivate!
 No need to delete anything from the wp_option when deleted!
 Not need other actions except installing or uninstall it!
 `
+
 Special Thanks to: [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523) and [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
 
 Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 3.8+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is automatic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.8+
@@ -110,13 +112,13 @@ before install this plugin, is reccomended, but is not needed, to unflag: person
 A neat trick is to put this single file (not its parent directory) in the wp-content/mu-plugins directory (create it if not exists) so you won't even have to enable it, it will be loaded by default.
 
 = Troubleshooting =
-If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-Toolbar-removal/
+If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-admin-bar-removal/
 
 == Frequently Asked Questions ==
 
 disable admin bar or toolbar on personal options turn off only theme integration but not remove code without minimizing memory consumption and speedup loading of control panel
 
-[Goodbye Admin Bar, Hello Toolbar](//digwp.com/2012/01/goodbye-admin-bar-hello-Toolbar/) Posted on: January 13, 2012 by Jeff Starr
+[Goodbye Admin Bar, Hello Toolbar](//digwp.com/2012/01/goodbye-admin-bar-hello-toolbar/) Posted on: January 13, 2012 by Jeff Starr
 
 When the Admin Bar hit the streets in WordPress 3.1, people seemed to either love it or hate it. And rightly so, it was a significant change in the appearance of the WP Admin area, and if not disabled in your User Profile, the front-end of your site as well. Many tips, tricks and plugins for customizing the Admin Bar began appearing around the Web. And then just as the dust began to settle, BAM! the "Admin Bar" transforms into the "Toolbar" with the WordPress 3.3 update.
 
@@ -157,9 +159,11 @@ Is it really mandatory?
 
 the latest version of this plugin work on all wordpress version from 3.1+ to 3.8+ with new unified coding
 
-`All releases, prior latest stable, are deprecated, 
+`
+All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
-suggested upgrade to the latest build, always!`
+suggested upgrade to the latest build, always!
+`
 
 = Development Status =
 Developmental Code in Becoming!
