@@ -15,6 +15,6 @@ header( 'HTTP/1.1 404 Not Found' );
 <h1>Not Found</h1>
 <div><noscript><h1>Not Found</h1></noscript></div>
 <hr>
-<address>Server Port 80</address>
+<address>Web Server Port 80</address>
 </body>
 </html>

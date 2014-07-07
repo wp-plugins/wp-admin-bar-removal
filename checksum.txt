@@ -1,24 +1,18 @@
-WP Admin Bar Removal - TAG - Build 2014-07-07 (Version 2014.0707.0383) MD5 Checksum:
+WP Admin Bar Removal - TRUNK - Version 2014.0707.0383 (Build 2014-07-07) MD5 Checksum:
 
-index.htm                                           13BC1724EF97F0619C894AD7C5699F17
-index.html                                          13BC1724EF97F0619C894AD7C5699F17
+index.htm                                             89A986ADE5F2DE5E82A862BFB9F8668B
+index.html                                            89A986ADE5F2DE5E82A862BFB9F8668B
 
-.htaccess                                           57F0ADD4CCE6E5ABF409839D8F903878
+.htaccess                                             CCEB229ECCF3331A3B7E140461C3AD3B
 
-gpl-2.0.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-humans.txt                                          C1509896B9059CDB6BA0A74F6F78CE74
-index.php                                           D9AB6DDE2263F42ADFB40F2932D40742
-license.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                          74B91DB8D0D50BAB082E1CC22BE5961D
+gpl-2.0.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                            C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                             91CF7C943D4B47004CCE5098C63E28A5
+license.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                            D6AA5DEC96EE7510DAED0EB669933CD3
 
-wp-admin-bar-removal.css                            A339858AFC756662F51678EBEEA0B482
-wp-admin-bar-removal.js                             A81F81A23D915FE15431FF0D35DC4DE1
-wp-admin-bar-removal.php                            3C7E9BFEB811368EF2A8363C8B8DD9DA
-
-WP Admin Bar Removal - DEV - Build 2014-07-07 (Version 2014.0827.0400) MD5 Checksum:
-
-wp-admin-bar-removal-dev.css                        ED1ADFE54D41A3164FA1DA8ADE744E70
-wp-admin-bar-removal-dev.js                         0B7341B76E41E02D34C2030086D5DCA7
-wp-admin-bar-removal-dev.php                        1489C2F0871460CF7411FB3FCDC0A9E3
+wp-admin-bar-removal.css                              EA439EA65ED2C8E3E241FDA4DFC3E603
+wp-admin-bar-removal.js                               CC52E8A65AD5C4792EE9EC6EA8C5A684
+wp-admin-bar-removal.php                              EFC57C13F6E10076AB9AF55B787AAA99
 
 

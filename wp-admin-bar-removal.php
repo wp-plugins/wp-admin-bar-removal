@@ -7,7 +7,7 @@ Version: 2014.0707.0383
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.8.3
+Tested up to: 3.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -174,7 +174,7 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @branche 2014
 	 * @build   2014-07-07
 	 * @since   3.1.0
-	 * @tested  3.8.3
+	 * @tested  3.7.3
 	 * @version 2014.0707.0383
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!

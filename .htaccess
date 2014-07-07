@@ -2,10 +2,6 @@
 Order Allow,Deny
 Deny From All
 </Files>
-<Files checksum.txt>
-Order Allow,Deny
-Deny From All
-</Files>
 <Files gpl-2.0.txt>
 Order Allow,Deny
 Deny From All
@@ -19,6 +15,14 @@ Order Allow,Deny
 Deny From All
 </Files>
 <Files readme.txt>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files wp-admin-bar-removal.css>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files wp-admin-bar-removal.js>
 Order Allow,Deny
 Deny From All
 </Files>
