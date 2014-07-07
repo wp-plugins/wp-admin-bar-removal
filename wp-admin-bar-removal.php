@@ -57,7 +57,8 @@ Humans URI: http://humanstxt.org/Standard.html
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and
+ * as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
@@ -111,7 +112,8 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective other authors:
+ * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your
+ * own author and part belongs to their respective other authors:
  *
  * Copyright (C) 2008-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
@@ -120,21 +122,27 @@ Humans URI: http://humanstxt.org/Standard.html
  * VIOLATIONS
  *
  * [Violations of the GNU Licenses](//www.gnu.org/licenses/gpl-violation.en.html)
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs
+ * 1,4,10,12,13,16,17 quality requirements.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
  *
  * This software implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * VALIDATION
  *
- * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
+ * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress
+ * [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * HUMANS (humans.txt)
@@ -142,6 +150,7 @@ Humans URI: http://humanstxt.org/Standard.html
  * We are the Humans behind this project [humanstxt.org](//humanstxt.org/Standard.html)
  *
  * This software meet detailed humans rights belongs to your own author and to their respective other authors.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * THANKS

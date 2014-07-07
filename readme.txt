@@ -169,7 +169,7 @@ suggested upgrade to the latest build, always!
 Developmental Code in Becoming!
 
 = 2014.0707.0383 =
-* Major Update [CERTIFIED] Remove Admin Bar and Toolbar with New Unified Coding!
+* Major Update [CERTIFIED] Remove Admin Bar or Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
  * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard
@@ -210,5 +210,5 @@ Developmental Code in Becoming!
 == Upgrade Notice ==
 
 = 2014.0707.0383 =
-Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Major Update [CERTIFIED] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
