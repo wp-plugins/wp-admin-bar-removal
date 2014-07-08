@@ -169,7 +169,7 @@ suggested upgrade to the latest build, always!
 Developmental Code in Becoming!
 
 = 2014.0708.0383 =
-* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Issues
+* Update [BUGFIX] Fixed Dashboard Appearance and Update Issues
  * Please update as soon as possible!
  * FIXED is shown a double version of plugin just upgraded or installed
  * FIXED issues when is requested another update of plugin just upgraded or installed

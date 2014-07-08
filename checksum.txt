@@ -9,10 +9,8 @@ gpl-2.0.txt                                           B234EE4D69F5FCE4486A80FDAF
 humans.txt                                            C1509896B9059CDB6BA0A74F6F78CE74
 index.php                                             91CF7C943D4B47004CCE5098C63E28A5
 license.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                            AB1D67C1D76C0AB1200E8273864F2697
+readme.txt                                            22AB7D0BFF0700EAFF1A0F348D6C886D
 
 wp-admin-bar-removal.css                              9FE26649B1DC41D6CBD0B9CE63E40F5F
 wp-admin-bar-removal.js                               10A2BED0FFE284122C156E833BB88A45
 wp-admin-bar-removal.php                              08A8292D433CB8EF7ABCAF7C2D757611
-
-
