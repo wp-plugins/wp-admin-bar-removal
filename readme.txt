@@ -169,7 +169,7 @@ suggested upgrade to the latest build, always!
 Developmental Code in Becoming!
 
 = 2014.0708.0383 =
-* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Problem Issues
+* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Issues
  * Please update as soon as possible!
  * FIXED is shown a double version of plugin just upgraded or installed
  * FIXED issues when is requested another update of plugin just upgraded or installed
@@ -218,7 +218,7 @@ Developmental Code in Becoming!
 == Upgrade Notice ==
 
 = 2014.0708.0383 =
-* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Problem Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+* Update [BUGFIX] Fix Dashboard Appearance Glitch and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
 = 2014.0707.0383 =
 Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
