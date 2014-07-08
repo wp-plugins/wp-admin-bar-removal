@@ -3,7 +3,7 @@
 Plugin Name: WP Admin Bar Removal
 Plugin URI: http://slangji.wordpress.com/wp-admin-bar-removal/
 Description: disable admin bar or toolbar on WordPress 3.1+ to 3.8+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic!
-Version: 2014.0707.0383
+Version: 2014.0708.0383
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
@@ -172,10 +172,10 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @description Disable WordPress Admin Bar or Toolbar and Remove Code
 	 * @install The configuration of this plugin is Automatic!
 	 * @branche 2014
-	 * @build   2014-07-07
+	 * @build   2014-07-08
 	 * @since   3.1.0
 	 * @tested  3.7.3
-	 * @version 2014.0707.0383
+	 * @version 2014.0708.0383
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -403,7 +403,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wpabr_hfl()
 		{
-			echo "\n<!--Plugin WP Admin Bar Removal 2014.0707.0383 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Admin Bar Removal 2014.0708.0383 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
@@ -425,6 +425,38 @@ Humans URI: http://humanstxt.org/Standard.html
 		}
 	add_action( 'wp_head', 'wpabr_hfl' );
 	add_action( 'wp_footer', 'wpabr_hfl' );
+
+	add_filter( 'in_admin_header' , 'wpabr_remove_wptbr_abtlh' , 1 );
+
+	function wpabr_remove_wptbr_abtlh()
+
+		{
+
+			if ( has_filter( 'in_admin_header' , 'wptbr_abtlh' ) )
+
+				{
+
+					remove_filter( 'in_admin_header' , 'wptbr_abtlh' );
+
+				}
+
+		}
+
+	add_filter( 'in_admin_header', 'wpabr_remove_wptrcd_atblh', 1 );
+
+	function wpabr_remove_wptrcd_atblh()
+
+		{
+
+			if ( has_filter( 'in_admin_header' , 'wptrcd_atblh') )
+
+				{
+
+					remove_filter('in_admin_header', 'wptrcd_atblh');
+
+				}
+
+		}
 
 	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-admin-bar-removal.js' ) )
 

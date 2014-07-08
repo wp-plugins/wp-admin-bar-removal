@@ -168,8 +168,16 @@ suggested upgrade to the latest build, always!
 = Development Status =
 Developmental Code in Becoming!
 
+= 2014.0708.0383 =
+* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Problem Issues
+ * Please update as soon as possible!
+ * FIXED is shown a double version of plugin just upgraded or installed
+ * FIXED issues when is requested another update of plugin just upgraded or installed
+ * FIXED is shown top 28px gap dashboard appearance glitch and not removed
+ * BUMP Version 2014 Build 0708 Revision 0383
+
 = 2014.0707.0383 =
-* Major Update [CERTIFIED] Remove Admin Bar or Toolbar with New Unified Coding!
+* Major [UPDATE] Remove Admin Bar or Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
  * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard (on target)
@@ -209,6 +217,9 @@ Developmental Code in Becoming!
 
 == Upgrade Notice ==
 
+= 2014.0708.0383 =
+* Update [BUGFIX] Fixed Dashboard Appearance Glitch and Update Problem Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+
 = 2014.0707.0383 =
-Major Update [CERTIFIED] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
