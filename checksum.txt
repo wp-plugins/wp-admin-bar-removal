@@ -3,7 +3,7 @@ WP Admin Bar Removal - TRUNK - Version 2014.0708.0383 (Build 2014-07-08) MD5 Che
 index.htm                                             89A986ADE5F2DE5E82A862BFB9F8668B
 index.html                                            89A986ADE5F2DE5E82A862BFB9F8668B
 
-.htaccess                                             CCEB229ECCF3331A3B7E140461C3AD3B
+.htaccess                                             E36EDC4116658B93B750E5732B5D8FA4
 
 gpl-2.0.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
 humans.txt                                            C1509896B9059CDB6BA0A74F6F78CE74
