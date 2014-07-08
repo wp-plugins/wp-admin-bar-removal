@@ -232,7 +232,7 @@ Humans URI: http://humanstxt.org/Standard.html
 	function wpabr_rbf28px()
 		{
 			echo "\n\n<!--Start Admin Bar Removal Code-->\n\n";
-			echo '<style type="text/css">html.wp-Toolbar,html.wp-Toolbar #wpcontent,html.wp-Toolbar #adminmenu,html.wp-Toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
+			echo '<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
 			echo "\n\n<!--End Admin Bar Removal Code-->\n\n";
 		}
 	add_action( 'admin_print_styles', 'wpabr_rbf28px', 21 );
@@ -438,7 +438,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 		{
 
-			wp_enqueue_script( 'wp-admin-bar-removal-js' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+			wp_enqueue_script( 'wp-admin-bar-removal' , plugins_url( 'wp-admin-bar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
 
 		}
 
@@ -454,7 +454,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 		{
 
-			wp_enqueue_style( 'wp-admin-bar-removal-css' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
+			wp_enqueue_style( 'wp-admin-bar-removal' , plugins_url( 'wp-admin-bar-removal.css' , __FILE__ ) );
 
 		}
 

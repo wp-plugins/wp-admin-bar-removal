@@ -13,6 +13,6 @@ readme.txt                                            D6AA5DEC96EE7510DAED0EB669
 
 wp-admin-bar-removal.css                              EA439EA65ED2C8E3E241FDA4DFC3E603
 wp-admin-bar-removal.js                               CC52E8A65AD5C4792EE9EC6EA8C5A684
-wp-admin-bar-removal.php                              EFC57C13F6E10076AB9AF55B787AAA99
+wp-admin-bar-removal.php                              3CDAD209BDBA55737661510922DDA9BB
 
 
