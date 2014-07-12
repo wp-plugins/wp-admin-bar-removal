@@ -1,9 +1,10 @@
 === Disable WP Admin Bar Removal ===
-Contributors: slangjis
+Contributors: sLa NGjI's
 Donate link: http://slangji.wordpress.com/donate/
-Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
+Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangji, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
+Tested up to: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +14,11 @@ disable wordpress admin bar for all user roles remove frontend backend code redu
 
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
-Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10 Your updates is manual (for now) when is available upgraded releases! Periodically, the files included in the plugin will be updated with new releases: you are advised to periodically download the updated package based on the build date rather than on its version.
+Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10
+
+Your updates is manual (for now) when is available upgraded releases!
+
+Periodically, the files included in the plugin will be updated with new releases: you are advised to periodically download the updated package based on the build date rather than on its version.
 
 Rules:
 
@@ -40,7 +45,7 @@ Features:
 1. Remove Backend "28px gap" on top of DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/Toolbar"
 1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
-1. hide backend page title icons in the dashboard
+1. Hide Admin Page Title Icons in the Backend DashBoard
 1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
 1. Add logout functionality on top of DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
