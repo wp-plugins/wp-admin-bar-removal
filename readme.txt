@@ -4,7 +4,6 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 3.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,15 +13,16 @@ disable wordpress admin bar for all user roles remove frontend backend code redu
 
 disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
-Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10 your update it manual (for now) when is available upgraded releases! Periodically, the files included in the plugin will be updated with new releases: you are advised to periodically download the updated package based on the build date rather than on its version.
+Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10 Your updates is manual (for now) when is available upgraded releases! Periodically, the files included in the plugin will be updated with new releases: you are advised to periodically download the updated package based on the build date rather than on its version.
 
 Rules:
 
 1. Compatible with: WordPress, bbPress, Buddypress
-1. Unified Coding to run with WordPress 3.1+ to 3.8+
+1. Unified Coding to run with WordPress 3.1+ or later
 1. Ready to Single and Network Multisite Environment
-1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code
-1. The configuration of this plugin is automatic!
+1. All in One Disabler and Remover
+1. 28px Gap, Bump CB, Node, Shadow, Pointer, Profile, Code
+1. The configuration of this plugin is Automatic!
 1. Compatible with Shared, Dedicated, Cloud and VPS Hosting
 1. Run on Hosting with high and low resources
 1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License
@@ -34,15 +34,15 @@ Features:
 1. Remove WordPress 3.1+ (or later) Admin Bar
 1. Remove WordPress 3.3+ (or later) Toolbar
 1. Remove Frontend Bump CB
-1. Remove Frontend "28px gap" on top of Site Home Page
+1. Remove Frontend "28px gap" on top of Site
 1. Remove Backend DashBoard Admin Menu Shadow Effect
 1. Remove Backend DashBoard Admin Bar/Toolbar Pointer (ToolTips)
-1. Remove Backend "28px gap" on top of Admin DashBoard for WP 3.3+ or later
+1. Remove Backend "28px gap" on top of DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/Toolbar"
 1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
 1. Hide Admin Page Title Icons in the Backend DashBoard
 1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
-1. Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
+1. Add logout functionality on top of DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
 1. Show realtime datetime on top of DashBoard for WP 3.3+ or later
 
@@ -74,7 +74,7 @@ Not need other actions except installing or uninstall it!
 
 Special Thanks to: [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523) and [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
 
-Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ to 3.8+ plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is automatic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.8+
+Disable WP Admin Bar and Toolbar Removal from Home Page and DashBoard Clean Remove Code for all User Roles Loggedin and Loggedout Completely on WordPress 3.1+ or later plugin from Frontend, Backend, User Personal Options Settings, for Minimize Memory Consumption and Speed UP Loading of the Admin Control Panel, with New Unified Coding Approach and Without Loosing Log Out (one click) and Network MultiSite (Site Admin/Network Admin Link) Functionality! Hide: Frontend 28px GAP and Bump CB on Top of Site, Backend 28px GAP and Node/Group/Links, Howdy Message on Top of DashBoard, Admin Menu Shadow Effect and Bar Pointer ToolTips, add Realtime i18n Date/Time on Header. For Best Security the Name Showing on Header in the Nickname, not real Username, and Log Out Redirect to Home Page, not to a Login Page. The configuration of this Plugin is Automatic! The first and only Plugin (for now) that really work on WordPress 3.1+ or later
 
 * [My Others WordPress Plugins](//slangji.wordpress.com/plugins/)
  * [WP Overview (lite)](//wordpress.org/plugins/wp-overview-lite/)
@@ -122,7 +122,7 @@ disable admin bar or toolbar on personal options turn off only theme integration
 
 [Goodbye Admin Bar, Hello Toolbar](//digwp.com/2012/01/goodbye-admin-bar-hello-toolbar/) Posted on: January 13, 2012 by Jeff Starr
 
-When the Admin Bar hit the streets in WordPress 3.1, people seemed to either love it or hate it. And rightly so, it was a significant change in the appearance of the WP Admin area, and if not disabled in your User Profile, the front-end of your site as well. Many tips, tricks and plugins for customizing the Admin Bar began appearing around the Web. And then just as the dust began to settle, BAM! the "Admin Bar" transforms into the "Toolbar" with the WordPress 3.3 update.
+When the Admin Bar hit the streets in WordPress 3.1, people seemed to either love it or hate it. And rightly so, it was a significant change in the appearance of the WP Admin area, and if not disabled in your User Profile, the front-end of your site as well. Many tips, tricks and plugins for customizing the Admin Bar began appearing around the Web. And then just as the dust began to settle, BAM - the "Admin Bar" transforms into the "Toolbar" with the WordPress 3.3 update.
 
 The WordPress 3.3 update focused heavily on streamlining and optimizing the Admin experience. The Admin Bar of WP 3.1 was intended as the "first step toward a front-end editor". The original Admin Bar was debated for several good reasons:
 
@@ -159,13 +159,15 @@ Is it really mandatory?
 
 == External CSS Style and JS Script Support ==
 
-External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10 your update it manual (for now) when is available upgraded releases!
+Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10
+
+Your updates is manual (for now) when is available upgraded releases!
 
 Periodically, the files included in the plugin will be updated with new releases: you are advised to periodically download the updated package based on the build date rather than on its version.
 
 == Changelog ==
 
-the latest version of this plugin work on all wordpress version from 3.1+ to 3.8+ with new unified coding
+the latest version of this plugin work on all wordpress version from 3.1+ or later with new unified coding
 
 `
 All releases, prior latest stable, are deprecated, 
@@ -180,30 +182,30 @@ Developmental Code in Becoming!
 * Update [BUGFIX] Fixed Dashboard Appearance and Update Issues
  * Please update as soon as possible!
  * FIXED is shown a double version of plugin just upgraded or installed
- * FIXED issues when is requested another update of plugin just upgraded or installed
- * FIXED is shown top 28px gap dashboard appearance glitch and not removed
+ * FIXED issues when is requested to update plugin again
+ * FIXED is shown top 28px gap dashboard not removed
  * BUMP Version 2014 Build 0708 Revision 0383
 
 = 2014.0707.0383 =
 * Major [UPDATE] Remove Admin Bar or Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
- * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard (on target)
- * ADD preemptive support for external css and js files (on target)
+ * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard
+ * ADD preemptive support for external css and js files
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
- * NEW unified coding to run with WordPress 3.1+ to 3.8+
+ * NEW unified coding to run with WordPress 3.1+ or later
  * NEW updated code for max speedup of dashboard and admin menu
  * NEW show i18n realtime datetime on top of dashboard for WP 3.3+ or later
  * NEW disable user personal options settings "Show Admin Bar/Toolbar"
  * NEW add header and footer log
- * NEW add logout functionality on top of admin dashboard for WP 3.3+ or later
- * NEW disable frontend "28px gap" on top of site home page
+ * NEW add logout functionality on top of DashBoard for WP 3.3+ or later
+ * NEW disable frontend "28px gap" on top of site
  * NEW disable frontend bump cb
- * NEW disable backend "28px gap" on top of admin dashboard
- * NEW disable backend dashboard admin bar and toolbar pointer (tooltips)
+ * NEW disable backend "28px gap" on top of dashboard
+ * NEW disable backend dashboard pointer (tooltips)
  * NEW disable backend dashboard admin menu shadow effect
- * NEW disable backend admin menu hoverintent handlers for the bar and menu
- * NEW hide admin icons in the backend navigation menu (not on collapsed state)
+ * NEW disable backend admin menu hoverintent handlers
+ * NEW hide icons in the backend navigation menu (not on collapsed state)
  * NEW hide admin page title icons in the backend dashboard
  * UPDATED class removal
  * UPDATED cleaning gnu style code indentation
@@ -226,8 +228,8 @@ Developmental Code in Becoming!
 == Upgrade Notice ==
 
 = 2014.0708.0383 =
-* Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+* Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
 = 2014.0707.0383 =
-Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ to 3.8+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
