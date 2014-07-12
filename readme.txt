@@ -40,7 +40,7 @@ Features:
 1. Remove Backend "28px gap" on top of DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/Toolbar"
 1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
-1. Hide Admin Page Title Icons in the Backend DashBoard
+1. hide backend page title icons in the dashboard
 1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
 1. Add logout functionality on top of DashBoard for WP 3.3+ or later
 1. Add Header and Footer Log
@@ -152,7 +152,7 @@ Is it really mandatory?
 1. "Old" Admin Bar: bigger, clunkier, and redundant ...
 2. "New" Toolbar: smaller, simpler, but redundant ...
 3. "Old" Admin Bar Personal Options: full control ...
-4. "New" Toolbar Personal Options: bamboozled! No option to disable for backend!
+4. "New" Toolbar Personal Options: bamboozled! Not disabled for backend!
 5. Admin Bar and Toolbar with "One Click Logout Barless" add-on Plugin ...
 6. DashBoard with "WP Toolbar Removal": faster and user friendly ...
 7. Personal Options: not needed if Admin Bar or Toolbar is disadled and removed!
@@ -195,7 +195,7 @@ Developmental Code in Becoming!
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
  * NEW unified coding to run with WordPress 3.1+ or later
  * NEW updated code for max speedup of dashboard and admin menu
- * NEW show i18n realtime datetime on top of dashboard for WP 3.3+ or later
+ * NEW show i18n datetime on top of dashboard for WP 3.3+ or later
  * NEW disable user personal options settings "Show Admin Bar/Toolbar"
  * NEW add header and footer log
  * NEW add logout functionality on top of DashBoard for WP 3.3+ or later
@@ -205,8 +205,8 @@ Developmental Code in Becoming!
  * NEW disable backend dashboard pointer (tooltips)
  * NEW disable backend dashboard admin menu shadow effect
  * NEW disable backend admin menu hoverintent handlers
- * NEW hide icons in the backend navigation menu (not on collapsed state)
- * NEW hide admin page title icons in the backend dashboard
+ * NEW hide backend admin menu icons (not on collapsed state)
+ * NEW hide backend page title icons in the dashboard
  * UPDATED class removal
  * UPDATED cleaning gnu style code indentation
  * UPDATED cleaning unneeded code removal
