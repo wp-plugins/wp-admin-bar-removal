@@ -1,10 +1,9 @@
 === Disable WP Admin Bar Removal ===
-Contributors: sLa NGjI's
+Contributors: sLaNGjIs
 Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangji, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,7 +43,7 @@ Features:
 1. Remove Backend DashBoard Admin Bar/Toolbar Pointer (ToolTips)
 1. Remove Backend "28px gap" on top of DashBoard for WP 3.3+ or later
 1. Remove User Personal Options Settings "Show Admin Bar/Toolbar"
-1. Hide Admin Icons in the Backend Navigation Menu (not on collapsed state)
+1. Hide Admin Icons in the Backend Menu (not on collapsed state)
 1. Hide Admin Page Title Icons in the Backend DashBoard
 1. Disable Admin Menu Hoverintent Handlers for the Bar and Menu
 1. Add logout functionality on top of DashBoard for WP 3.3+ or later
@@ -172,16 +171,16 @@ Periodically, the files included in the plugin will be updated with new releases
 
 == Changelog ==
 
-the latest version of this plugin work on all wordpress version from 3.1+ or later with new unified coding
+the latest version of this plugin work on wordpress 3.1+ or later with new unified coding
+
+= Development Status =
+Developmental Code in Becoming!
 
 `
 All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!
 `
-
-= Development Status =
-Developmental Code in Becoming!
 
 = 2014.0708.0383 =
 * Update [BUGFIX] Fixed Dashboard Appearance and Update Issues
@@ -233,7 +232,7 @@ Developmental Code in Becoming!
 == Upgrade Notice ==
 
 = 2014.0708.0383 =
-* Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
 = 2014.0707.0383 =
 Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
