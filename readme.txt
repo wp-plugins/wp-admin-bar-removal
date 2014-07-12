@@ -1,9 +1,10 @@
 === Disable WP Admin Bar Removal ===
-Contributors: sLaNGjIs
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangji, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
+Tested up to: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -235,5 +236,5 @@ suggested upgrade to the latest build, always!
 Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
 
 = 2014.0707.0383 =
-Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
+Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality
 
