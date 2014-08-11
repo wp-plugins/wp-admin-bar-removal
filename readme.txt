@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangji, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 4.0.0
+Tested up to: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -183,6 +183,12 @@ and no longer supported on this project: is very
 suggested upgrade to the latest build, always!
 `
 
+= 2014.0807.0384 =
+* Update [SECURITY] Security update according to WordPress 3.8.4
+ * Please update as soon as possible!
+ * UPDATE Security Compatibility with WordPress 3.8.4
+ * BUMP Version 2014 Build 0807 Revision 0384
+
 = 2014.0708.0383 =
 * Update [BUGFIX] Fixed Dashboard Appearance and Update Issues
  * Please update as soon as possible!
@@ -231,6 +237,9 @@ suggested upgrade to the latest build, always!
  * BUMP Version 2014 Build 0707 Revision 0383
 
 == Upgrade Notice ==
+
+= 2014.0807.0384 =
+Update [SECURITY] Security Compatibility Update according to WordPress 3.8.4
 
 = 2014.0708.0383 =
 Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
