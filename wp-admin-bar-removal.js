@@ -3,7 +3,7 @@
  * @package WP Admin Bar Removal
  * @subpackage External JS Enqueue Script
  * @branche 2014
- * @build   2014-07-07
+ * @build   2014-08-16
  * @since   3.9.0
  * @tested  3.9.2
  * @version 2014.0816.0392

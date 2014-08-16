@@ -1,7 +1,7 @@
 === Disable WP Admin Bar Removal ===
 Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, sla, slangji, slangjis, toolbar
+Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 4.0
@@ -183,26 +183,39 @@ and no longer supported on this project: is very
 suggested upgrade to the latest build, always!
 `
 
-= 2014.0807.0384 =
-* Update [SECURITY] Security update according to WordPress 3.8.4
+= 2014.0816.0392 =
+* Update [SECURITY] Security update according to WordPress 3.9.2
+ * Please update as soon as possible!
+ * UPDATE Security Compatibility with WordPress 3.9.2
+ * BUMP Version 2014 Build 0816 Revision 0392
+
+= 2014.0707.0384 =
+* Update [BUGFIX] Security update according to WordPress 3.8.4
  * Please update as soon as possible!
  * UPDATE Security Compatibility with WordPress 3.8.4
- * BUMP Version 2014 Build 0807 Revision 0384
-
-= 2014.0708.0383 =
-* Update [BUGFIX] Fixed Dashboard Appearance and Update Issues
- * Please update as soon as possible!
+ * FIXED Dashboard Appearance and Update Issues
  * FIXED is shown a double version of plugin just upgraded or installed
  * FIXED issues when is requested to update plugin again
  * FIXED is shown top 28px gap dashboard not removed
- * BUMP Version 2014 Build 0708 Revision 0383
+ * BUMP Version 2014 Build 0707 Revision 0384
 
-= 2014.0707.0383 =
+= 2014.0531.0374 =
 * Major [UPDATE] Remove Admin Bar or Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
  * ADD preemptive support for WP 3.8+ to 4.1+ adaptive dasboard
  * ADD preemptive support for external css and js files
+ * BUMP Version 2014 Build 0531 Revision 0374
+
+= 2013.0624.0361-OZH =
+* Major [UPDATE] OZH Admin Drop Down Menu Support!
+ * Please update as soon as possible!
+ * NEW OZH [Admin Drop Down Menu](//wordpress.org/plugins/ozh-admin-drop-down-menu/) support!
+ * BUMP Version 2014 Build 0624 Revision 0361 OZH
+
+= 2013.0624.0361 =
+* Major [UPDATE] Remove Admin Bar or Toolbar with New Unified Coding!
+ * Please update as soon as possible!
  * FIXED [Ticket #16004](//core.trac.wordpress.org/ticket/16004)
  * NEW unified coding to run with WordPress 3.1+ or later
  * NEW updated code for max speedup of dashboard and admin menu
@@ -234,18 +247,12 @@ suggested upgrade to the latest build, always!
  * UPDATED removed redundant and unneeded filters
  * UPDATED removed redundant and unneeded styles
  * UPDATED removed unnecessary complex code
- * BUMP Version 2014 Build 0707 Revision 0383
+ * BUMP Version 2014 Build 0624 Revision 0361
 
 == Upgrade Notice ==
 
-= 2014.0807.0384 =
-Update [SECURITY] Security Compatibility Update according to WordPress 3.8.4
-
-= 2014.0708.0383 =
-Update [BUGFIX] Fix Dashboard Appearance and Update Issues - Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality!
-
-= 2014.0707.0383 =
-Major [UPDATE] Disable WordPress Admin Bar or Toolbar and Remove Code Completely on WP 3.1+ or later for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach without loosing Logout and Network MultiSite functionality
+= 2014.0816.0392 =
+Update [SECURITY] Security Compatibility Update according to WordPress 3.9.2
 
 == Disclaimer ==
 
