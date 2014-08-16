@@ -172,9 +172,9 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @description Disable WordPress Admin Bar or Toolbar and Remove Code
 	 * @install The configuration of this plugin is Automatic!
 	 * @branche 2014
-	 * @build   2014-08-16
-	 * @since   3.1.0
-	 * @tested  3.9.2
+	 * @build   2014-08-15
+	 * @since   3.1+
+	 * @tested  3.9+
 	 * @version 2014.0816.0392
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
