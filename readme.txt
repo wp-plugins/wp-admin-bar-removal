@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
 Stable tag: trunk
 Requires at least: 3.1
-Tested up to: 4.0
+Tested up to: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,9 @@ disable wordpress admin bar for all user roles remove frontend backend code redu
 
 == Description ==
 
-disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
+disable wordpress admin bar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ / 4.2+ / 4.3+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
-Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2014.1210.0410 Build 2014-12-10
+Please noted that External CSS Style and JS Script support fot Adaptive Dasboard is developed offline on [sLaNGjIs GitHub](//github.com/slangji/) targeted for Version 2015.1231.2016 Build 2015/2016-12-31
 
 Your updates is manual (for now) when is available upgraded releases!
 
